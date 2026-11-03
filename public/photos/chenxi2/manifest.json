@@ -1,0 +1,915 @@
+{
+  "project": "Chenxi2",
+  "sourceDir": "photos/Chenxi2",
+  "outputDir": "cdn-ready/photos/chenxi2",
+  "basePath": "photos/chenxi2",
+  "generatedAt": "2026-04-26T14:41:45.200Z",
+  "variantPolicy": {
+    "placeholder": "48px max edge WebP for blur-up placeholders",
+    "thumb": "640px max edge WebP for grids",
+    "preview": "1600px max edge WebP for detail pages",
+    "large": "2560px max edge WebP for lightboxes",
+    "original": "Untouched source file for explicit full-resolution views or downloads"
+  },
+  "uploadHint": "Sync cdn-ready/photos/chenxi2 to your bucket under photos/chenxi2/",
+  "count": 23,
+  "photos": [
+    {
+      "id": "9b6ee107-e0bf-492f-b2b6-426200dd8a26",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 01",
+      "originalName": "9B6EE107-E0BF-492F-B2B6-426200DD8A26.jpeg",
+      "width": 3886,
+      "height": 5829,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/9b6ee107-e0bf-492f-b2b6-426200dd8a26/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 396
+      },
+      "thumb": {
+        "path": "photos/chenxi2/9b6ee107-e0bf-492f-b2b6-426200dd8a26/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 19626
+      },
+      "preview": {
+        "path": "photos/chenxi2/9b6ee107-e0bf-492f-b2b6-426200dd8a26/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 97108
+      },
+      "large": {
+        "path": "photos/chenxi2/9b6ee107-e0bf-492f-b2b6-426200dd8a26/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 250238
+      },
+      "original": {
+        "path": "photos/chenxi2/9b6ee107-e0bf-492f-b2b6-426200dd8a26/original.jpg",
+        "width": 3886,
+        "height": 5829,
+        "bytes": 4946401
+      }
+    },
+    {
+      "id": "480a1775",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 02",
+      "originalName": "480A1775.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/480a1775/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 384
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a1775/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 25122
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a1775/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 152910
+      },
+      "large": {
+        "path": "photos/chenxi2/480a1775/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 433354
+      },
+      "original": {
+        "path": "photos/chenxi2/480a1775/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9743227
+      }
+    },
+    {
+      "id": "480a1802",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 03",
+      "originalName": "480A1802.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/480a1802/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 384
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a1802/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 30710
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a1802/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 132462
+      },
+      "large": {
+        "path": "photos/chenxi2/480a1802/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 313612
+      },
+      "original": {
+        "path": "photos/chenxi2/480a1802/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 10048011
+      }
+    },
+    {
+      "id": "480a1858",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 04",
+      "originalName": "480A1858.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/480a1858/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 422
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a1858/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 25688
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a1858/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 136058
+      },
+      "large": {
+        "path": "photos/chenxi2/480a1858/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 346594
+      },
+      "original": {
+        "path": "photos/chenxi2/480a1858/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9257654
+      }
+    },
+    {
+      "id": "480a1880",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 05",
+      "originalName": "480A1880.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/480a1880/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 452
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a1880/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 27094
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a1880/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 154758
+      },
+      "large": {
+        "path": "photos/chenxi2/480a1880/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 439412
+      },
+      "original": {
+        "path": "photos/chenxi2/480a1880/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 10263094
+      }
+    },
+    {
+      "id": "480a1979",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 06",
+      "originalName": "480A1979.jpg",
+      "width": 6960,
+      "height": 4640,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/chenxi2/480a1979/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 416
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a1979/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 21378
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a1979/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 118430
+      },
+      "large": {
+        "path": "photos/chenxi2/480a1979/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 314096
+      },
+      "original": {
+        "path": "photos/chenxi2/480a1979/original.jpg",
+        "width": 6960,
+        "height": 4640,
+        "bytes": 9864327
+      }
+    },
+    {
+      "id": "480a1981",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 07",
+      "originalName": "480A1981.jpg",
+      "width": 6960,
+      "height": 4640,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/chenxi2/480a1981/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 430
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a1981/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 23572
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a1981/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 136930
+      },
+      "large": {
+        "path": "photos/chenxi2/480a1981/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 374830
+      },
+      "original": {
+        "path": "photos/chenxi2/480a1981/original.jpg",
+        "width": 6960,
+        "height": 4640,
+        "bytes": 10651208
+      }
+    },
+    {
+      "id": "480a2103",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 08",
+      "originalName": "480A2103.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/480a2103/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 412
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a2103/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 29994
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a2103/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 174612
+      },
+      "large": {
+        "path": "photos/chenxi2/480a2103/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 435584
+      },
+      "original": {
+        "path": "photos/chenxi2/480a2103/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9506543
+      }
+    },
+    {
+      "id": "480a2105",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 09",
+      "originalName": "480A2105.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/480a2105/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 384
+      },
+      "thumb": {
+        "path": "photos/chenxi2/480a2105/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 29716
+      },
+      "preview": {
+        "path": "photos/chenxi2/480a2105/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 157790
+      },
+      "large": {
+        "path": "photos/chenxi2/480a2105/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 379848
+      },
+      "original": {
+        "path": "photos/chenxi2/480a2105/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9908761
+      }
+    },
+    {
+      "id": "587e5891-4896-4adf-95ae-abbd59ed380f",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 10",
+      "originalName": "587E5891-4896-4ADF-95AE-ABBD59ED380F.jpeg",
+      "width": 2808,
+      "height": 4212,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/587e5891-4896-4adf-95ae-abbd59ed380f/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 342
+      },
+      "thumb": {
+        "path": "photos/chenxi2/587e5891-4896-4adf-95ae-abbd59ed380f/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 21346
+      },
+      "preview": {
+        "path": "photos/chenxi2/587e5891-4896-4adf-95ae-abbd59ed380f/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 112820
+      },
+      "large": {
+        "path": "photos/chenxi2/587e5891-4896-4adf-95ae-abbd59ed380f/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 292744
+      },
+      "original": {
+        "path": "photos/chenxi2/587e5891-4896-4adf-95ae-abbd59ed380f/original.jpg",
+        "width": 2808,
+        "height": 4212,
+        "bytes": 2306124
+      }
+    },
+    {
+      "id": "4594a382-4697-4a7a-a87f-553d2ea507c2",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 11",
+      "originalName": "4594A382-4697-4A7A-A87F-553D2EA507C2.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/4594a382-4697-4a7a-a87f-553d2ea507c2/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 352
+      },
+      "thumb": {
+        "path": "photos/chenxi2/4594a382-4697-4a7a-a87f-553d2ea507c2/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 22430
+      },
+      "preview": {
+        "path": "photos/chenxi2/4594a382-4697-4a7a-a87f-553d2ea507c2/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 97736
+      },
+      "large": {
+        "path": "photos/chenxi2/4594a382-4697-4a7a-a87f-553d2ea507c2/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 231862
+      },
+      "original": {
+        "path": "photos/chenxi2/4594a382-4697-4a7a-a87f-553d2ea507c2/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 5676384
+      }
+    },
+    {
+      "id": "06226d9a-57be-4cb2-ac00-a8726f727a89",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 12",
+      "originalName": "06226D9A-57BE-4CB2-AC00-A8726F727A89.JPEG",
+      "width": 6960,
+      "height": 4640,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/chenxi2/06226d9a-57be-4cb2-ac00-a8726f727a89/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 326
+      },
+      "thumb": {
+        "path": "photos/chenxi2/06226d9a-57be-4cb2-ac00-a8726f727a89/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 17006
+      },
+      "preview": {
+        "path": "photos/chenxi2/06226d9a-57be-4cb2-ac00-a8726f727a89/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 89920
+      },
+      "large": {
+        "path": "photos/chenxi2/06226d9a-57be-4cb2-ac00-a8726f727a89/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 243170
+      },
+      "original": {
+        "path": "photos/chenxi2/06226d9a-57be-4cb2-ac00-a8726f727a89/original.jpg",
+        "width": 6960,
+        "height": 4640,
+        "bytes": 7060672
+      }
+    },
+    {
+      "id": "211807fd-5acf-4952-be33-2f784589afd7",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 13",
+      "originalName": "211807FD-5ACF-4952-BE33-2F784589AFD7.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/211807fd-5acf-4952-be33-2f784589afd7/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 316
+      },
+      "thumb": {
+        "path": "photos/chenxi2/211807fd-5acf-4952-be33-2f784589afd7/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 25326
+      },
+      "preview": {
+        "path": "photos/chenxi2/211807fd-5acf-4952-be33-2f784589afd7/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 153236
+      },
+      "large": {
+        "path": "photos/chenxi2/211807fd-5acf-4952-be33-2f784589afd7/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 406288
+      },
+      "original": {
+        "path": "photos/chenxi2/211807fd-5acf-4952-be33-2f784589afd7/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 8409458
+      }
+    },
+    {
+      "id": "425632fc-c46e-4928-a61f-704ec287a5c6",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 14",
+      "originalName": "425632FC-C46E-4928-A61F-704EC287A5C6.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/425632fc-c46e-4928-a61f-704ec287a5c6/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 244
+      },
+      "thumb": {
+        "path": "photos/chenxi2/425632fc-c46e-4928-a61f-704ec287a5c6/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 27902
+      },
+      "preview": {
+        "path": "photos/chenxi2/425632fc-c46e-4928-a61f-704ec287a5c6/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 150224
+      },
+      "large": {
+        "path": "photos/chenxi2/425632fc-c46e-4928-a61f-704ec287a5c6/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 350388
+      },
+      "original": {
+        "path": "photos/chenxi2/425632fc-c46e-4928-a61f-704ec287a5c6/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 6787515
+      }
+    },
+    {
+      "id": "641355b6-d22f-4664-8c8c-7cd715f6314b",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 15",
+      "originalName": "641355B6-D22F-4664-8C8C-7CD715F6314B.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/641355b6-d22f-4664-8c8c-7cd715f6314b/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 496
+      },
+      "thumb": {
+        "path": "photos/chenxi2/641355b6-d22f-4664-8c8c-7cd715f6314b/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 47600
+      },
+      "preview": {
+        "path": "photos/chenxi2/641355b6-d22f-4664-8c8c-7cd715f6314b/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 219160
+      },
+      "large": {
+        "path": "photos/chenxi2/641355b6-d22f-4664-8c8c-7cd715f6314b/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 548916
+      },
+      "original": {
+        "path": "photos/chenxi2/641355b6-d22f-4664-8c8c-7cd715f6314b/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 8872065
+      }
+    },
+    {
+      "id": "3087369c-46f0-4cbf-bb01-efcfa3d7cea5",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 16",
+      "originalName": "3087369C-46F0-4CBF-BB01-EFCFA3D7CEA5.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/3087369c-46f0-4cbf-bb01-efcfa3d7cea5/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 540
+      },
+      "thumb": {
+        "path": "photos/chenxi2/3087369c-46f0-4cbf-bb01-efcfa3d7cea5/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 74540
+      },
+      "preview": {
+        "path": "photos/chenxi2/3087369c-46f0-4cbf-bb01-efcfa3d7cea5/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 416880
+      },
+      "large": {
+        "path": "photos/chenxi2/3087369c-46f0-4cbf-bb01-efcfa3d7cea5/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 1074678
+      },
+      "original": {
+        "path": "photos/chenxi2/3087369c-46f0-4cbf-bb01-efcfa3d7cea5/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 13173039
+      }
+    },
+    {
+      "id": "35173409-1732-49f7-a2bc-ee4c83ed10b7",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 17",
+      "originalName": "35173409-1732-49F7-A2BC-EE4C83ED10B7.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/35173409-1732-49f7-a2bc-ee4c83ed10b7/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 428
+      },
+      "thumb": {
+        "path": "photos/chenxi2/35173409-1732-49f7-a2bc-ee4c83ed10b7/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 31466
+      },
+      "preview": {
+        "path": "photos/chenxi2/35173409-1732-49f7-a2bc-ee4c83ed10b7/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 168556
+      },
+      "large": {
+        "path": "photos/chenxi2/35173409-1732-49f7-a2bc-ee4c83ed10b7/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 409416
+      },
+      "original": {
+        "path": "photos/chenxi2/35173409-1732-49f7-a2bc-ee4c83ed10b7/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 8492225
+      }
+    },
+    {
+      "id": "88596604-e17e-48bb-a608-31d22c407cf6",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 18",
+      "originalName": "88596604-E17E-48BB-A608-31D22C407CF6.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/88596604-e17e-48bb-a608-31d22c407cf6/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 458
+      },
+      "thumb": {
+        "path": "photos/chenxi2/88596604-e17e-48bb-a608-31d22c407cf6/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 34348
+      },
+      "preview": {
+        "path": "photos/chenxi2/88596604-e17e-48bb-a608-31d22c407cf6/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 175612
+      },
+      "large": {
+        "path": "photos/chenxi2/88596604-e17e-48bb-a608-31d22c407cf6/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 427576
+      },
+      "original": {
+        "path": "photos/chenxi2/88596604-e17e-48bb-a608-31d22c407cf6/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 7929517
+      }
+    },
+    {
+      "id": "a6370aa4-bc7e-485f-bfbc-588ee9f2ebc0",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 19",
+      "originalName": "A6370AA4-BC7E-485F-BFBC-588EE9F2EBC0.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/a6370aa4-bc7e-485f-bfbc-588ee9f2ebc0/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 390
+      },
+      "thumb": {
+        "path": "photos/chenxi2/a6370aa4-bc7e-485f-bfbc-588ee9f2ebc0/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 30646
+      },
+      "preview": {
+        "path": "photos/chenxi2/a6370aa4-bc7e-485f-bfbc-588ee9f2ebc0/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 150618
+      },
+      "large": {
+        "path": "photos/chenxi2/a6370aa4-bc7e-485f-bfbc-588ee9f2ebc0/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 400390
+      },
+      "original": {
+        "path": "photos/chenxi2/a6370aa4-bc7e-485f-bfbc-588ee9f2ebc0/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 7424669
+      }
+    },
+    {
+      "id": "c98c1ddf-0798-4645-9c1a-933fdf6878a8",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 20",
+      "originalName": "C98C1DDF-0798-4645-9C1A-933FDF6878A8.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/c98c1ddf-0798-4645-9c1a-933fdf6878a8/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 404
+      },
+      "thumb": {
+        "path": "photos/chenxi2/c98c1ddf-0798-4645-9c1a-933fdf6878a8/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 33580
+      },
+      "preview": {
+        "path": "photos/chenxi2/c98c1ddf-0798-4645-9c1a-933fdf6878a8/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 159452
+      },
+      "large": {
+        "path": "photos/chenxi2/c98c1ddf-0798-4645-9c1a-933fdf6878a8/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 399946
+      },
+      "original": {
+        "path": "photos/chenxi2/c98c1ddf-0798-4645-9c1a-933fdf6878a8/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 7615534
+      }
+    },
+    {
+      "id": "e5cd9156-4b1a-4cfa-9dbe-c7adb1c1bee4",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 21",
+      "originalName": "E5CD9156-4B1A-4CFA-9DBE-C7ADB1C1BEE4.JPEG",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/e5cd9156-4b1a-4cfa-9dbe-c7adb1c1bee4/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 512
+      },
+      "thumb": {
+        "path": "photos/chenxi2/e5cd9156-4b1a-4cfa-9dbe-c7adb1c1bee4/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 23728
+      },
+      "preview": {
+        "path": "photos/chenxi2/e5cd9156-4b1a-4cfa-9dbe-c7adb1c1bee4/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 100266
+      },
+      "large": {
+        "path": "photos/chenxi2/e5cd9156-4b1a-4cfa-9dbe-c7adb1c1bee4/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 240396
+      },
+      "original": {
+        "path": "photos/chenxi2/e5cd9156-4b1a-4cfa-9dbe-c7adb1c1bee4/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 6984375
+      }
+    },
+    {
+      "id": "f25620c3-f1c6-4db4-a5af-48aae7096ab4",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 22",
+      "originalName": "F25620C3-F1C6-4DB4-A5AF-48AAE7096AB4.jpeg",
+      "width": 1418,
+      "height": 2127,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/chenxi2/f25620c3-f1c6-4db4-a5af-48aae7096ab4/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 374
+      },
+      "thumb": {
+        "path": "photos/chenxi2/f25620c3-f1c6-4db4-a5af-48aae7096ab4/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 28220
+      },
+      "preview": {
+        "path": "photos/chenxi2/f25620c3-f1c6-4db4-a5af-48aae7096ab4/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 145198
+      },
+      "large": {
+        "path": "photos/chenxi2/f25620c3-f1c6-4db4-a5af-48aae7096ab4/large.webp",
+        "width": 1418,
+        "height": 2127,
+        "bytes": 308220
+      },
+      "original": {
+        "path": "photos/chenxi2/f25620c3-f1c6-4db4-a5af-48aae7096ab4/original.jpg",
+        "width": 1418,
+        "height": 2127,
+        "bytes": 748508
+      }
+    },
+    {
+      "id": "fbb7ccff-fc27-4be2-9166-8af9120e357d",
+      "project": "Chenxi2",
+      "alt": "Chenxi2 photo 23",
+      "originalName": "FBB7CCFF-FC27-4BE2-9166-8AF9120E357D.jpeg",
+      "width": 3414,
+      "height": 5120,
+      "aspectRatio": 0.666797,
+      "placeholder": {
+        "path": "photos/chenxi2/fbb7ccff-fc27-4be2-9166-8af9120e357d/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 376
+      },
+      "thumb": {
+        "path": "photos/chenxi2/fbb7ccff-fc27-4be2-9166-8af9120e357d/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 21554
+      },
+      "preview": {
+        "path": "photos/chenxi2/fbb7ccff-fc27-4be2-9166-8af9120e357d/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 101902
+      },
+      "large": {
+        "path": "photos/chenxi2/fbb7ccff-fc27-4be2-9166-8af9120e357d/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 260616
+      },
+      "original": {
+        "path": "photos/chenxi2/fbb7ccff-fc27-4be2-9166-8af9120e357d/original.jpg",
+        "width": 3414,
+        "height": 5120,
+        "bytes": 13159440
+      }
+    }
+  ]
+}

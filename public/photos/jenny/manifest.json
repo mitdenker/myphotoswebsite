@@ -1,0 +1,681 @@
+{
+  "project": "Jenny",
+  "sourceDir": "photos/Jenny",
+  "outputDir": "cdn-ready/photos/jenny",
+  "basePath": "photos/jenny",
+  "generatedAt": "2026-05-04T09:06:11.152Z",
+  "variantPolicy": {
+    "placeholder": "48px max edge WebP for blur-up placeholders",
+    "thumb": "640px max edge WebP for grids",
+    "preview": "1600px max edge WebP for detail pages",
+    "large": "2560px max edge WebP for lightboxes",
+    "original": "Untouched source file for explicit full-resolution views or downloads"
+  },
+  "uploadHint": "Sync cdn-ready/photos/jenny to your bucket under photos/jenny/",
+  "count": 17,
+  "photos": [
+    {
+      "id": "5e5b82cd-ad6a-46de-9f9f-8689ab41a81a",
+      "project": "Jenny",
+      "alt": "Jenny photo 01",
+      "originalName": "5E5B82CD-AD6A-46DE-9F9F-8689AB41A81A.jpeg",
+      "width": 3414,
+      "height": 5120,
+      "aspectRatio": 0.666797,
+      "placeholder": {
+        "path": "photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 354
+      },
+      "thumb": {
+        "path": "photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 10796
+      },
+      "preview": {
+        "path": "photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 44800
+      },
+      "large": {
+        "path": "photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 137310
+      },
+      "original": {
+        "path": "photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/original.jpg",
+        "width": 3414,
+        "height": 5120,
+        "bytes": 14222577
+      }
+    },
+    {
+      "id": "480a2921",
+      "project": "Jenny",
+      "alt": "Jenny photo 01",
+      "originalName": "480A2921.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a2921/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 374
+      },
+      "thumb": {
+        "path": "photos/jenny/480a2921/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 10462
+      },
+      "preview": {
+        "path": "photos/jenny/480a2921/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 40148
+      },
+      "large": {
+        "path": "photos/jenny/480a2921/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 122768
+      },
+      "original": {
+        "path": "photos/jenny/480a2921/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 11481802
+      }
+    },
+    {
+      "id": "480a2923",
+      "project": "Jenny",
+      "alt": "Jenny photo 02",
+      "originalName": "480A2923.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a2923/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 304
+      },
+      "thumb": {
+        "path": "photos/jenny/480a2923/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 10578
+      },
+      "preview": {
+        "path": "photos/jenny/480a2923/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 42644
+      },
+      "large": {
+        "path": "photos/jenny/480a2923/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 121888
+      },
+      "original": {
+        "path": "photos/jenny/480a2923/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 10902899
+      }
+    },
+    {
+      "id": "480a3462",
+      "project": "Jenny",
+      "alt": "Jenny photo 03",
+      "originalName": "480A3462.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a3462/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 366
+      },
+      "thumb": {
+        "path": "photos/jenny/480a3462/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 18266
+      },
+      "preview": {
+        "path": "photos/jenny/480a3462/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 98000
+      },
+      "large": {
+        "path": "photos/jenny/480a3462/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 398964
+      },
+      "original": {
+        "path": "photos/jenny/480a3462/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 17030288
+      }
+    },
+    {
+      "id": "480a3664",
+      "project": "Jenny",
+      "alt": "Jenny photo 05",
+      "originalName": "480A3664.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a3664/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 276
+      },
+      "thumb": {
+        "path": "photos/jenny/480a3664/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 13330
+      },
+      "preview": {
+        "path": "photos/jenny/480a3664/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 83366
+      },
+      "large": {
+        "path": "photos/jenny/480a3664/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 569912
+      },
+      "original": {
+        "path": "photos/jenny/480a3664/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 20781067
+      }
+    },
+    {
+      "id": "480a3679",
+      "project": "Jenny",
+      "alt": "Jenny photo 06",
+      "originalName": "480A3679.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a3679/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 434
+      },
+      "thumb": {
+        "path": "photos/jenny/480a3679/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 31198
+      },
+      "preview": {
+        "path": "photos/jenny/480a3679/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 136992
+      },
+      "large": {
+        "path": "photos/jenny/480a3679/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 560162
+      },
+      "original": {
+        "path": "photos/jenny/480a3679/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 21294016
+      }
+    },
+    {
+      "id": "480a3761",
+      "project": "Jenny",
+      "alt": "Jenny photo 07",
+      "originalName": "480A3761.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a3761/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 372
+      },
+      "thumb": {
+        "path": "photos/jenny/480a3761/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 17596
+      },
+      "preview": {
+        "path": "photos/jenny/480a3761/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 89274
+      },
+      "large": {
+        "path": "photos/jenny/480a3761/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 243820
+      },
+      "original": {
+        "path": "photos/jenny/480a3761/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9365519
+      }
+    },
+    {
+      "id": "480a4220",
+      "project": "Jenny",
+      "alt": "Jenny photo 08",
+      "originalName": "480A4220.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a4220/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 360
+      },
+      "thumb": {
+        "path": "photos/jenny/480a4220/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 22500
+      },
+      "preview": {
+        "path": "photos/jenny/480a4220/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 111270
+      },
+      "large": {
+        "path": "photos/jenny/480a4220/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 302410
+      },
+      "original": {
+        "path": "photos/jenny/480a4220/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9804644
+      }
+    },
+    {
+      "id": "480a4239",
+      "project": "Jenny",
+      "alt": "Jenny photo 09",
+      "originalName": "480A4239.jpg",
+      "width": 6960,
+      "height": 4640,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/jenny/480a4239/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 318
+      },
+      "thumb": {
+        "path": "photos/jenny/480a4239/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 14984
+      },
+      "preview": {
+        "path": "photos/jenny/480a4239/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 67052
+      },
+      "large": {
+        "path": "photos/jenny/480a4239/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 173104
+      },
+      "original": {
+        "path": "photos/jenny/480a4239/original.jpg",
+        "width": 6960,
+        "height": 4640,
+        "bytes": 9603107
+      }
+    },
+    {
+      "id": "480a4294",
+      "project": "Jenny",
+      "alt": "Jenny photo 10",
+      "originalName": "480A4294.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a4294/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 436
+      },
+      "thumb": {
+        "path": "photos/jenny/480a4294/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 57314
+      },
+      "preview": {
+        "path": "photos/jenny/480a4294/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 242654
+      },
+      "large": {
+        "path": "photos/jenny/480a4294/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 534316
+      },
+      "original": {
+        "path": "photos/jenny/480a4294/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 8817451
+      }
+    },
+    {
+      "id": "480a4311",
+      "project": "Jenny",
+      "alt": "Jenny photo 11",
+      "originalName": "480A4311.jpg",
+      "width": 2794,
+      "height": 4191,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a4311/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 276
+      },
+      "thumb": {
+        "path": "photos/jenny/480a4311/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 15804
+      },
+      "preview": {
+        "path": "photos/jenny/480a4311/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 74410
+      },
+      "large": {
+        "path": "photos/jenny/480a4311/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 183008
+      },
+      "original": {
+        "path": "photos/jenny/480a4311/original.jpg",
+        "width": 2794,
+        "height": 4191,
+        "bytes": 2064541
+      }
+    },
+    {
+      "id": "480a4420",
+      "project": "Jenny",
+      "alt": "Jenny photo 12",
+      "originalName": "480A4420.jpg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/480a4420/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 424
+      },
+      "thumb": {
+        "path": "photos/jenny/480a4420/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 23272
+      },
+      "preview": {
+        "path": "photos/jenny/480a4420/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 98646
+      },
+      "large": {
+        "path": "photos/jenny/480a4420/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 289864
+      },
+      "original": {
+        "path": "photos/jenny/480a4420/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 16032866
+      }
+    },
+    {
+      "id": "480a4447",
+      "project": "Jenny",
+      "alt": "Jenny photo 13",
+      "originalName": "480A4447.jpg",
+      "width": 6960,
+      "height": 4640,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/jenny/480a4447/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 306
+      },
+      "thumb": {
+        "path": "photos/jenny/480a4447/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 11974
+      },
+      "preview": {
+        "path": "photos/jenny/480a4447/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 52412
+      },
+      "large": {
+        "path": "photos/jenny/480a4447/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 138090
+      },
+      "original": {
+        "path": "photos/jenny/480a4447/original.jpg",
+        "width": 6960,
+        "height": 4640,
+        "bytes": 10280242
+      }
+    },
+    {
+      "id": "5011f131-e49c-432b-9f1c-07c6bd876ea2",
+      "project": "Jenny",
+      "alt": "Jenny photo 15",
+      "originalName": "5011F131-E49C-432B-9F1C-07C6BD876EA2.jpeg",
+      "width": 6960,
+      "height": 4640,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/jenny/5011f131-e49c-432b-9f1c-07c6bd876ea2/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 368
+      },
+      "thumb": {
+        "path": "photos/jenny/5011f131-e49c-432b-9f1c-07c6bd876ea2/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 19176
+      },
+      "preview": {
+        "path": "photos/jenny/5011f131-e49c-432b-9f1c-07c6bd876ea2/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 188568
+      },
+      "large": {
+        "path": "photos/jenny/5011f131-e49c-432b-9f1c-07c6bd876ea2/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 907094
+      },
+      "original": {
+        "path": "photos/jenny/5011f131-e49c-432b-9f1c-07c6bd876ea2/original.jpg",
+        "width": 6960,
+        "height": 4640,
+        "bytes": 20687064
+      }
+    },
+    {
+      "id": "7781f2b6-060d-4d4a-9466-c1d8eca58db6",
+      "project": "Jenny",
+      "alt": "Jenny photo 16",
+      "originalName": "7781F2B6-060D-4D4A-9466-C1D8ECA58DB6.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 454
+      },
+      "thumb": {
+        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 20516
+      },
+      "preview": {
+        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 82724
+      },
+      "large": {
+        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 220194
+      },
+      "original": {
+        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 9268303
+      }
+    },
+    {
+      "id": "a6b53664-2ba3-4a02-ae33-4d23fe0c32b2",
+      "project": "Jenny",
+      "alt": "Jenny photo 17",
+      "originalName": "A6B53664-2BA3-4A02-AE33-4D23FE0C32B2.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/a6b53664-2ba3-4a02-ae33-4d23fe0c32b2/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 402
+      },
+      "thumb": {
+        "path": "photos/jenny/a6b53664-2ba3-4a02-ae33-4d23fe0c32b2/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 19112
+      },
+      "preview": {
+        "path": "photos/jenny/a6b53664-2ba3-4a02-ae33-4d23fe0c32b2/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 87224
+      },
+      "large": {
+        "path": "photos/jenny/a6b53664-2ba3-4a02-ae33-4d23fe0c32b2/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 246174
+      },
+      "original": {
+        "path": "photos/jenny/a6b53664-2ba3-4a02-ae33-4d23fe0c32b2/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 8790194
+      }
+    },
+    {
+      "id": "fa3b5345-2156-4e54-8285-fa14088d9f8e",
+      "project": "Jenny",
+      "alt": "Jenny photo 19",
+      "originalName": "FA3B5345-2156-4E54-8285-FA14088D9F8E.jpeg",
+      "width": 4640,
+      "height": 6960,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 450
+      },
+      "thumb": {
+        "path": "photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 16874
+      },
+      "preview": {
+        "path": "photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 64872
+      },
+      "large": {
+        "path": "photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 168420
+      },
+      "original": {
+        "path": "photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/original.jpg",
+        "width": 4640,
+        "height": 6960,
+        "bytes": 6187775
+      }
+    }
+  ]
+}

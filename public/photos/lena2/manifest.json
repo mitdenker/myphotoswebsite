@@ -1,0 +1,1032 @@
+{
+  "project": "Lena2",
+  "sourceDir": "photos/Lena2",
+  "outputDir": "cdn-ready/photos/lena2",
+  "basePath": "photos/lena2",
+  "generatedAt": "2026-05-02T10:49:03.689Z",
+  "variantPolicy": {
+    "placeholder": "48px max edge WebP for blur-up placeholders",
+    "thumb": "640px max edge WebP for grids",
+    "preview": "1600px max edge WebP for detail pages",
+    "large": "2560px max edge WebP for lightboxes",
+    "original": "Untouched source file for explicit full-resolution views or downloads"
+  },
+  "uploadHint": "Sync cdn-ready/photos/lena2 to your bucket under photos/lena2/",
+  "count": 26,
+  "photos": [
+    {
+      "id": "img-1740",
+      "project": "Lena2",
+      "alt": "Lena2 photo 01",
+      "originalName": "IMG_1740.JPG",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/lena2/img-1740/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 400
+      },
+      "thumb": {
+        "path": "photos/lena2/img-1740/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 53972
+      },
+      "preview": {
+        "path": "photos/lena2/img-1740/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 250936
+      },
+      "large": {
+        "path": "photos/lena2/img-1740/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 597020
+      },
+      "original": {
+        "path": "photos/lena2/img-1740/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 17578599
+      }
+    },
+    {
+      "id": "img-1768",
+      "project": "Lena2",
+      "alt": "Lena2 photo 02",
+      "originalName": "IMG_1768.JPG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-1768/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 310
+      },
+      "thumb": {
+        "path": "photos/lena2/img-1768/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 25234
+      },
+      "preview": {
+        "path": "photos/lena2/img-1768/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 106638
+      },
+      "large": {
+        "path": "photos/lena2/img-1768/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 249218
+      },
+      "original": {
+        "path": "photos/lena2/img-1768/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 11283352
+      }
+    },
+    {
+      "id": "img-1798",
+      "project": "Lena2",
+      "alt": "Lena2 photo 03",
+      "originalName": "IMG_1798.JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-1798/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 330
+      },
+      "thumb": {
+        "path": "photos/lena2/img-1798/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 32314
+      },
+      "preview": {
+        "path": "photos/lena2/img-1798/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 128900
+      },
+      "large": {
+        "path": "photos/lena2/img-1798/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 304214
+      },
+      "original": {
+        "path": "photos/lena2/img-1798/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4325978
+      }
+    },
+    {
+      "id": "img-2496",
+      "project": "Lena2",
+      "alt": "Lena2 photo 04",
+      "originalName": "IMG_2496.JPG",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/lena2/img-2496/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 390
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2496/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 18792
+      },
+      "preview": {
+        "path": "photos/lena2/img-2496/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 69146
+      },
+      "large": {
+        "path": "photos/lena2/img-2496/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 159626
+      },
+      "original": {
+        "path": "photos/lena2/img-2496/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 12420451
+      }
+    },
+    {
+      "id": "img-2593",
+      "project": "Lena2",
+      "alt": "Lena2 photo 05",
+      "originalName": "IMG_2593.JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2593/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 432
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2593/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 37972
+      },
+      "preview": {
+        "path": "photos/lena2/img-2593/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 153844
+      },
+      "large": {
+        "path": "photos/lena2/img-2593/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 362414
+      },
+      "original": {
+        "path": "photos/lena2/img-2593/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 5519600
+      }
+    },
+    {
+      "id": "img-2596-1",
+      "project": "Lena2",
+      "alt": "Lena2 photo 06",
+      "originalName": "IMG_2596 (1).JPEG",
+      "width": 3540,
+      "height": 5310,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2596-1/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 412
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2596-1/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 35364
+      },
+      "preview": {
+        "path": "photos/lena2/img-2596-1/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 143700
+      },
+      "large": {
+        "path": "photos/lena2/img-2596-1/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 323878
+      },
+      "original": {
+        "path": "photos/lena2/img-2596-1/original.jpg",
+        "width": 3540,
+        "height": 5310,
+        "bytes": 4351932
+      }
+    },
+    {
+      "id": "img-2597",
+      "project": "Lena2",
+      "alt": "Lena2 photo 07",
+      "originalName": "IMG_2597.JPEG",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/lena2/img-2597/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 410
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2597/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 37044
+      },
+      "preview": {
+        "path": "photos/lena2/img-2597/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 172506
+      },
+      "large": {
+        "path": "photos/lena2/img-2597/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 415438
+      },
+      "original": {
+        "path": "photos/lena2/img-2597/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 6433616
+      }
+    },
+    {
+      "id": "img-2627-1",
+      "project": "Lena2",
+      "alt": "Lena2 photo 08",
+      "originalName": "IMG_2627 (1).JPEG",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/lena2/img-2627-1/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 276
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2627-1/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 77160
+      },
+      "preview": {
+        "path": "photos/lena2/img-2627-1/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 443446
+      },
+      "large": {
+        "path": "photos/lena2/img-2627-1/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1113656
+      },
+      "original": {
+        "path": "photos/lena2/img-2627-1/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 10261208
+      }
+    },
+    {
+      "id": "img-2631",
+      "project": "Lena2",
+      "alt": "Lena2 photo 09",
+      "originalName": "IMG_2631.JPEG",
+      "width": 4556,
+      "height": 3037,
+      "aspectRatio": 1.500165,
+      "placeholder": {
+        "path": "photos/lena2/img-2631/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 334
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2631/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 97164
+      },
+      "preview": {
+        "path": "photos/lena2/img-2631/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 573504
+      },
+      "large": {
+        "path": "photos/lena2/img-2631/large.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 1438752
+      },
+      "original": {
+        "path": "photos/lena2/img-2631/original.jpg",
+        "width": 4556,
+        "height": 3037,
+        "bytes": 7893158
+      }
+    },
+    {
+      "id": "img-2639",
+      "project": "Lena2",
+      "alt": "Lena2 photo 11",
+      "originalName": "IMG_2639.JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2639/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 314
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2639/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 71742
+      },
+      "preview": {
+        "path": "photos/lena2/img-2639/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 384208
+      },
+      "large": {
+        "path": "photos/lena2/img-2639/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 904828
+      },
+      "original": {
+        "path": "photos/lena2/img-2639/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 9277216
+      }
+    },
+    {
+      "id": "img-2641-1",
+      "project": "Lena2",
+      "alt": "Lena2 photo 12",
+      "originalName": "IMG_2641 (1).JPEG",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/lena2/img-2641-1/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 386
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2641-1/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 42080
+      },
+      "preview": {
+        "path": "photos/lena2/img-2641-1/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 200604
+      },
+      "large": {
+        "path": "photos/lena2/img-2641-1/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 463068
+      },
+      "original": {
+        "path": "photos/lena2/img-2641-1/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 5922560
+      }
+    },
+    {
+      "id": "img-2642",
+      "project": "Lena2",
+      "alt": "Lena2 photo 13",
+      "originalName": "IMG_2642.JPEG",
+      "width": 3068,
+      "height": 4602,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2642/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 380
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2642/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 32652
+      },
+      "preview": {
+        "path": "photos/lena2/img-2642/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 141650
+      },
+      "large": {
+        "path": "photos/lena2/img-2642/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 339420
+      },
+      "original": {
+        "path": "photos/lena2/img-2642/original.jpg",
+        "width": 3068,
+        "height": 4602,
+        "bytes": 3458646
+      }
+    },
+    {
+      "id": "img-2652",
+      "project": "Lena2",
+      "alt": "Lena2 photo 14",
+      "originalName": "IMG_2652.JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2652/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 344
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2652/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 29372
+      },
+      "preview": {
+        "path": "photos/lena2/img-2652/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 103740
+      },
+      "large": {
+        "path": "photos/lena2/img-2652/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 223546
+      },
+      "original": {
+        "path": "photos/lena2/img-2652/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 3931529
+      }
+    },
+    {
+      "id": "img-2653",
+      "project": "Lena2",
+      "alt": "Lena2 photo 15",
+      "originalName": "IMG_2653.JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2653/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 480
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2653/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 25876
+      },
+      "preview": {
+        "path": "photos/lena2/img-2653/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 100412
+      },
+      "large": {
+        "path": "photos/lena2/img-2653/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 246406
+      },
+      "original": {
+        "path": "photos/lena2/img-2653/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4876194
+      }
+    },
+    {
+      "id": "img-2655",
+      "project": "Lena2",
+      "alt": "Lena2 photo 16",
+      "originalName": "IMG_2655.JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2655/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 380
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2655/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 18822
+      },
+      "preview": {
+        "path": "photos/lena2/img-2655/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 69152
+      },
+      "large": {
+        "path": "photos/lena2/img-2655/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 172612
+      },
+      "original": {
+        "path": "photos/lena2/img-2655/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4646087
+      }
+    },
+    {
+      "id": "img-2656",
+      "project": "Lena2",
+      "alt": "Lena2 photo 17",
+      "originalName": "IMG_2656.JPEG",
+      "width": 2347,
+      "height": 3521,
+      "aspectRatio": 0.666572,
+      "placeholder": {
+        "path": "photos/lena2/img-2656/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 434
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2656/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 24944
+      },
+      "preview": {
+        "path": "photos/lena2/img-2656/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 94274
+      },
+      "large": {
+        "path": "photos/lena2/img-2656/large.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 221592
+      },
+      "original": {
+        "path": "photos/lena2/img-2656/original.jpg",
+        "width": 2347,
+        "height": 3521,
+        "bytes": 1647086
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-26",
+      "project": "Lena2",
+      "alt": "Lena2 photo 18",
+      "originalName": "photo_2026-04-26 18.12.26.jpeg",
+      "width": 853,
+      "height": 1280,
+      "aspectRatio": 0.666406,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-26/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 218
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-26/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 12212
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-26/preview.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 50864
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-26/large.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 64312
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-26/original.jpg",
+        "width": 853,
+        "height": 1280,
+        "bytes": 78475
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-31",
+      "project": "Lena2",
+      "alt": "Lena2 photo 19",
+      "originalName": "photo_2026-04-26 18.12.31.jpeg",
+      "width": 1280,
+      "height": 853,
+      "aspectRatio": 1.500586,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-31/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 406
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-31/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 31082
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-31/preview.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 112584
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-31/large.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 130452
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-31/original.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 129608
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-34",
+      "project": "Lena2",
+      "alt": "Lena2 photo 20",
+      "originalName": "photo_2026-04-26 18.12.34.jpeg",
+      "width": 853,
+      "height": 1280,
+      "aspectRatio": 0.666406,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-34/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 390
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-34/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 37634
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-34/preview.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 147180
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-34/large.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 170986
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-34/original.jpg",
+        "width": 853,
+        "height": 1280,
+        "bytes": 155451
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-36",
+      "project": "Lena2",
+      "alt": "Lena2 photo 21",
+      "originalName": "photo_2026-04-26 18.12.36.jpeg",
+      "width": 853,
+      "height": 1280,
+      "aspectRatio": 0.666406,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-36/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 322
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-36/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 30476
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-36/preview.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 113596
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-36/large.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 134658
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-36/original.jpg",
+        "width": 853,
+        "height": 1280,
+        "bytes": 129984
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-43",
+      "project": "Lena2",
+      "alt": "Lena2 photo 22",
+      "originalName": "photo_2026-04-26 18.12.43.jpeg",
+      "width": 1280,
+      "height": 853,
+      "aspectRatio": 1.500586,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-43/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 300
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-43/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 23282
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-43/preview.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 87586
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-43/large.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 105046
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-43/original.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 109598
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-45",
+      "project": "Lena2",
+      "alt": "Lena2 photo 23",
+      "originalName": "photo_2026-04-26 18.12.45.jpeg",
+      "width": 1280,
+      "height": 853,
+      "aspectRatio": 1.500586,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-45/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 402
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-45/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 56986
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-45/preview.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 191196
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-45/large.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 221110
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-45/original.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 198522
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-12-50",
+      "project": "Lena2",
+      "alt": "Lena2 photo 24",
+      "originalName": "photo_2026-04-26 18.12.50.jpeg",
+      "width": 853,
+      "height": 1280,
+      "aspectRatio": 0.666406,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-50/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 356
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-50/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 32838
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-50/preview.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 105112
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-50/large.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 124314
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-12-50/original.jpg",
+        "width": 853,
+        "height": 1280,
+        "bytes": 129675
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-13-02",
+      "project": "Lena2",
+      "alt": "Lena2 photo 25",
+      "originalName": "photo_2026-04-26 18.13.02.jpeg",
+      "width": 853,
+      "height": 1280,
+      "aspectRatio": 0.666406,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-02/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 294
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-02/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 24876
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-02/preview.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 85544
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-02/large.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 101214
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-02/original.jpg",
+        "width": 853,
+        "height": 1280,
+        "bytes": 110640
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-13-23",
+      "project": "Lena2",
+      "alt": "Lena2 photo 26",
+      "originalName": "photo_2026-04-26 18.13.23.jpeg",
+      "width": 719,
+      "height": 1280,
+      "aspectRatio": 0.561719,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-23/placeholder.webp",
+        "width": 27,
+        "height": 48,
+        "bytes": 336
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-23/thumb.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 13768
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-23/preview.webp",
+        "width": 719,
+        "height": 1280,
+        "bytes": 38012
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-23/large.webp",
+        "width": 719,
+        "height": 1280,
+        "bytes": 44678
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-23/original.jpg",
+        "width": 719,
+        "height": 1280,
+        "bytes": 60020
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-14-08",
+      "project": "Lena2",
+      "alt": "Lena2 photo 27",
+      "originalName": "photo_2026-04-26 18.14.08.jpeg",
+      "width": 1280,
+      "height": 1280,
+      "aspectRatio": 1,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-14-08/placeholder.webp",
+        "width": 48,
+        "height": 48,
+        "bytes": 638
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-14-08/thumb.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 32404
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-14-08/preview.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 157342
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-14-08/large.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 190690
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-14-08/original.jpg",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 185815
+      }
+    }
+  ]
+}
