@@ -59,15 +59,25 @@ const Contacts = () => {
           <div>
             <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-10 block">Bookings</span>
             <p className="text-2xl md:text-4xl font-serif italic max-w-2xl leading-tight">
-              To book a shoot, just write to me by email.
+              To book a shoot, just write to me by email or on Instagram.
             </p>
           </div>
-          <a
-            href={`mailto:${EMAIL}`}
-            className="text-lg underline underline-offset-4 hover:text-black/50 transition-colors break-all"
-          >
-            {EMAIL}
-          </a>
+          <div className="flex flex-col gap-3 md:items-end">
+            <a
+              href={`mailto:${EMAIL}`}
+              className="text-lg underline underline-offset-4 hover:text-black/50 transition-colors break-all"
+            >
+              {EMAIL}
+            </a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="text-lg underline underline-offset-4 hover:text-black/50 transition-colors"
+            >
+              @whirlfull
+            </a>
+          </div>
         </div>
       </section>
 
