@@ -84,10 +84,9 @@ const Navbar = () => {
             </div>
 
             <div className="text-[10px] uppercase tracking-widest text-white/40 flex justify-between items-end">
-              <span>© 2024 Elena Korotkova</span>
+              <span>© 2026 Elena Korotkova</span>
               <div className="flex gap-6">
-                <a>Instagram</a>
-                <a>Behance</a>
+                <a href="https://www.instagram.com/whirlfull/" target="_blank" rel="noreferrer">Instagram</a>
               </div>
             </div>
           </motion.div>
@@ -103,27 +102,23 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-2">
           <h2 className="text-2xl md:text-3xl font-serif italic max-w-sm mb-8 leading-tight">
-            Capturing the intersection of light, form, and human experience.
+            Light, shadow and the people in between.
           </h2>
           <div className="flex gap-8 text-[10px] font-semibold uppercase tracking-widest text-black/40">
-            <a className="hover:text-black transition-colors">Instagram</a>
-            <a className="hover:text-black transition-colors">Vimeo</a>
-            <a className="hover:text-black transition-colors">LinkedIn</a>
+            <a href="https://www.instagram.com/whirlfull/" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">Instagram</a>
+            <a href="mailto:korotko.elena@gmail.com" className="hover:text-black transition-colors">Email</a>
           </div>
         </div>
         
         <div className="flex flex-col gap-4">
           <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4">Contact</span>
-          <p className="text-sm">[placeholder]</p>
-          <p className="text-sm">[placeholder]</p>
+          <a href="mailto:korotko.elena@gmail.com" className="text-sm hover:underline break-all">korotko.elena@gmail.com</a>
+          <p className="text-sm">Lisbon · Berlin</p>
         </div>
 
         <div className="flex flex-col gap-4">
-          <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4">Legal</span>
-          <p className="text-[10px] uppercase tracking-wider hover:underline cursor-pointer">Privacy Policy</p>
-          <p className="text-[10px] uppercase tracking-wider hover:underline cursor-pointer">Terms of Service</p>
           <div className="mt-auto pt-8">
-            <p className="text-[10px] uppercase tracking-widest text-black/20">© 2024 Elena Korotkova Photography</p>
+            <p className="text-[10px] uppercase tracking-widest text-black/20">© 2026 Elena Korotkova Photography</p>
           </div>
         </div>
       </div>

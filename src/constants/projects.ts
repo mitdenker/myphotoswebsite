@@ -153,7 +153,6 @@ const lenaCover = '/photos/lena/5e9cddbb-1769-4ce0-8f9e-05dd7624893f/preview.web
 const lenaHero = '/photos/lena/5e9cddbb-1769-4ce0-8f9e-05dd7624893f/large.webp';
 const lenaGallery: string[] = [
   lenaCover,
-  '/photos/lena/2026-04-27-13-46-32/preview.webp',
   '/photos/lena/img-1561/preview.webp',
   '/photos/lena/img-1572-1/preview.webp',
   '/photos/lena/img-1577/preview.webp',
@@ -167,12 +166,9 @@ const lenaGallery: string[] = [
   '/photos/lena/img-1619-1/preview.webp',
   '/photos/lena/img-1620/preview.webp',
   '/photos/lena/img-1627-1/preview.webp',
-  '/photos/lena/img-1694-1/preview.webp',
-  '/photos/lena/img-1696-1/preview.webp',
   '/photos/lena/img-1705-1/preview.webp',
   '/photos/lena/img-1708-1/preview.webp',
   '/photos/lena/img-1709-1/preview.webp',
-  '/photos/lena/img-1711-1/preview.webp',
   '/photos/lena/img-1712-1/preview.webp',
   '/photos/lena/img-1715-1/preview.webp',
   '/photos/lena/img-1718-1/preview.webp',
