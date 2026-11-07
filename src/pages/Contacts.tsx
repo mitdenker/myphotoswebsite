@@ -31,7 +31,7 @@ const Contacts = () => {
           <h1 className="text-6xl md:text-8xl font-serif italic leading-[0.9] mb-12">Elena Korotkova</h1>
           <div className="space-y-6 max-w-md text-sm md:text-base leading-relaxed text-black/70">
             <p>
-              I'm a photographer based between Lisbon and Berlin, originally from Saint Petersburg. I love working with light and making striking, expressive, vivid portraits that are anything but ordinary.
+              I'm a photographer based in Lisbon, originally from Saint Petersburg. I love working with light and making striking, expressive, vivid portraits that are anything but ordinary.
             </p>
             <p>
               I'm drawn to mystery: portraits made in darkness or through smoke, where the hidden, shadowed side of a person comes to the surface. At the same time I love the opposite — light, airy film photographs, unposed and full of life.
