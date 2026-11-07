@@ -138,10 +138,8 @@ const jennyCover = '/photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/preview.w
 const jennyHero = '/photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/large.webp';
 const jennyGallery: string[] = [
   jennyCover,
-  '/photos/jenny/480a3462/preview.webp',
   '/photos/jenny/480a3664/preview.webp',
   '/photos/jenny/480a3679/preview.webp',
-  '/photos/jenny/480a3761/preview.webp',
   '/photos/jenny/480a4220/preview.webp',
   '/photos/jenny/480a4239/preview.webp',
   '/photos/jenny/480a4294/preview.webp',
@@ -149,7 +147,6 @@ const jennyGallery: string[] = [
   '/photos/jenny/480a4420/preview.webp',
   '/photos/jenny/480a4447/preview.webp',
   '/photos/jenny/5011f131-e49c-432b-9f1c-07c6bd876ea2/preview.webp',
-  '/photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/preview.webp',
   '/photos/jenny/a6b53664-2ba3-4a02-ae33-4d23fe0c32b2/preview.webp',
   '/photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/preview.webp',
 ];

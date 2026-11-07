@@ -12,7 +12,7 @@
     "original": "Untouched source file for explicit full-resolution views or downloads"
   },
   "uploadHint": "Sync cdn-ready/photos/jenny to your bucket under photos/jenny/",
-  "count": 17,
+  "count": 14,
   "photos": [
     {
       "id": "5e5b82cd-ad6a-46de-9f9f-8689ab41a81a",
@@ -132,45 +132,6 @@
       }
     },
     {
-      "id": "480a3462",
-      "project": "Jenny",
-      "alt": "Jenny photo 03",
-      "originalName": "480A3462.jpg",
-      "width": 4640,
-      "height": 6960,
-      "aspectRatio": 0.666667,
-      "placeholder": {
-        "path": "photos/jenny/480a3462/placeholder.webp",
-        "width": 32,
-        "height": 48,
-        "bytes": 366
-      },
-      "thumb": {
-        "path": "photos/jenny/480a3462/thumb.webp",
-        "width": 427,
-        "height": 640,
-        "bytes": 18266
-      },
-      "preview": {
-        "path": "photos/jenny/480a3462/preview.webp",
-        "width": 1067,
-        "height": 1600,
-        "bytes": 98000
-      },
-      "large": {
-        "path": "photos/jenny/480a3462/large.webp",
-        "width": 1707,
-        "height": 2560,
-        "bytes": 398964
-      },
-      "original": {
-        "path": "photos/jenny/480a3462/original.jpg",
-        "width": 4640,
-        "height": 6960,
-        "bytes": 17030288
-      }
-    },
-    {
       "id": "480a3664",
       "project": "Jenny",
       "alt": "Jenny photo 05",
@@ -246,45 +207,6 @@
         "width": 4640,
         "height": 6960,
         "bytes": 21294016
-      }
-    },
-    {
-      "id": "480a3761",
-      "project": "Jenny",
-      "alt": "Jenny photo 07",
-      "originalName": "480A3761.jpg",
-      "width": 4640,
-      "height": 6960,
-      "aspectRatio": 0.666667,
-      "placeholder": {
-        "path": "photos/jenny/480a3761/placeholder.webp",
-        "width": 32,
-        "height": 48,
-        "bytes": 372
-      },
-      "thumb": {
-        "path": "photos/jenny/480a3761/thumb.webp",
-        "width": 427,
-        "height": 640,
-        "bytes": 17596
-      },
-      "preview": {
-        "path": "photos/jenny/480a3761/preview.webp",
-        "width": 1067,
-        "height": 1600,
-        "bytes": 89274
-      },
-      "large": {
-        "path": "photos/jenny/480a3761/large.webp",
-        "width": 1707,
-        "height": 2560,
-        "bytes": 243820
-      },
-      "original": {
-        "path": "photos/jenny/480a3761/original.jpg",
-        "width": 4640,
-        "height": 6960,
-        "bytes": 9365519
       }
     },
     {
@@ -558,45 +480,6 @@
         "width": 6960,
         "height": 4640,
         "bytes": 20687064
-      }
-    },
-    {
-      "id": "7781f2b6-060d-4d4a-9466-c1d8eca58db6",
-      "project": "Jenny",
-      "alt": "Jenny photo 16",
-      "originalName": "7781F2B6-060D-4D4A-9466-C1D8ECA58DB6.jpeg",
-      "width": 4640,
-      "height": 6960,
-      "aspectRatio": 0.666667,
-      "placeholder": {
-        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/placeholder.webp",
-        "width": 32,
-        "height": 48,
-        "bytes": 454
-      },
-      "thumb": {
-        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/thumb.webp",
-        "width": 427,
-        "height": 640,
-        "bytes": 20516
-      },
-      "preview": {
-        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/preview.webp",
-        "width": 1067,
-        "height": 1600,
-        "bytes": 82724
-      },
-      "large": {
-        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/large.webp",
-        "width": 1707,
-        "height": 2560,
-        "bytes": 220194
-      },
-      "original": {
-        "path": "photos/jenny/7781f2b6-060d-4d4a-9466-c1d8eca58db6/original.jpg",
-        "width": 4640,
-        "height": 6960,
-        "bytes": 9268303
       }
     },
     {
