@@ -12,7 +12,7 @@
     "original": "Untouched source file for explicit full-resolution views or downloads"
   },
   "uploadHint": "Sync cdn-ready/photos/lena2 to your bucket under photos/lena2/",
-  "count": 26,
+  "count": 28,
   "photos": [
     {
       "id": "img-1740",
@@ -1026,6 +1026,84 @@
         "width": 1280,
         "height": 1280,
         "bytes": 185815
+      }
+    },
+    {
+      "id": "img-2651-1",
+      "project": "Lena2",
+      "alt": "Lena photo 28",
+      "originalName": "IMG_2651 (1).JPEG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/lena2/img-2651-1/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 310
+      },
+      "thumb": {
+        "path": "photos/lena2/img-2651-1/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 49428
+      },
+      "preview": {
+        "path": "photos/lena2/img-2651-1/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 308426
+      },
+      "large": {
+        "path": "photos/lena2/img-2651-1/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 821366
+      },
+      "original": {
+        "path": "photos/lena2/img-2651-1/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 7661881
+      }
+    },
+    {
+      "id": "photo-2026-04-26-18-13-34",
+      "project": "Lena2",
+      "alt": "Lena photo 33",
+      "originalName": "photo_2026-04-26 18.13.34.jpeg",
+      "width": 853,
+      "height": 1280,
+      "aspectRatio": 0.666406,
+      "placeholder": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-34/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 350
+      },
+      "thumb": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-34/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 29124
+      },
+      "preview": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-34/preview.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 96586
+      },
+      "large": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-34/large.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 116484
+      },
+      "original": {
+        "path": "photos/lena2/photo-2026-04-26-18-13-34/original.jpg",
+        "width": 853,
+        "height": 1280,
+        "bytes": 126707
       }
     }
   ]
