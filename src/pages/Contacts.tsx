@@ -123,8 +123,7 @@ const Contacts = () => {
             <div>
               <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4 block">Based in</span>
               <p className="text-sm leading-relaxed">
-                Lisbon, Portugal<br />
-                Berlin, Germany
+                Lisbon, Portugal
               </p>
             </div>
           </div>

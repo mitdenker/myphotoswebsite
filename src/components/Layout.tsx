@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4">Contact</span>
           <a href="mailto:korotko.elena@gmail.com" className="text-sm hover:underline break-all">korotko.elena@gmail.com</a>
-          <p className="text-sm">Lisbon · Berlin</p>
+          <p className="text-sm">Lisbon, Portugal</p>
         </div>
 
         <div className="flex flex-col gap-4">
