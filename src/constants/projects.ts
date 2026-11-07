@@ -82,30 +82,17 @@ const chenxiGallery: string[] = [
   '/photos/chenxi/img-2158/preview.webp',
 ];
 
-const lenaCover = '/photos/lena/5e9cddbb-1769-4ce0-8f9e-05dd7624893f/preview.webp';
-const lenaHero = '/photos/lena/5e9cddbb-1769-4ce0-8f9e-05dd7624893f/large.webp';
+const lenaCover = '/photos/lena/img-1561/preview.webp';
+const lenaHero = '/photos/lena/img-1561/large.webp';
 const lenaGallery: string[] = [
   lenaCover,
-  '/photos/lena/img-1561/preview.webp',
-  '/photos/lena/img-1572-1/preview.webp',
   '/photos/lena/img-1577/preview.webp',
-  '/photos/lena/img-1602/preview.webp',
-  '/photos/lena/img-1604/preview.webp',
-  '/photos/lena/img-1606/preview.webp',
-  '/photos/lena/img-1612/preview.webp',
   '/photos/lena/img-1613/preview.webp',
   '/photos/lena/img-1614/preview.webp',
-  '/photos/lena/img-1615/preview.webp',
-  '/photos/lena/img-1619-1/preview.webp',
-  '/photos/lena/img-1620/preview.webp',
-  '/photos/lena/img-1627-1/preview.webp',
   '/photos/lena/img-1705-1/preview.webp',
   '/photos/lena/img-1708-1/preview.webp',
-  '/photos/lena/img-1709-1/preview.webp',
-  '/photos/lena/img-1712-1/preview.webp',
   '/photos/lena/img-1715-1/preview.webp',
   '/photos/lena/img-1718-1/preview.webp',
-  '/photos/lena/img-1720-1/preview.webp',
   '/photos/lena/img-1722-1/preview.webp',
   '/photos/lena/img-1725-1/preview.webp',
   '/photos/lena/img-2651-1/preview.webp',
