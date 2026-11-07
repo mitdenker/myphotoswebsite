@@ -12,7 +12,7 @@
     "original": "Untouched source file for explicit full-resolution views or downloads"
   },
   "uploadHint": "Sync cdn-ready/photos/marina to your bucket under photos/marina/",
-  "count": 23,
+  "count": 22,
   "photos": [
     {
       "id": "0c4901ba-d485-4393-ba7c-84d741ce2c31-2",
@@ -168,45 +168,6 @@
         "width": 3631,
         "height": 5446,
         "bytes": 8494796
-      }
-    },
-    {
-      "id": "2d5fc201-85b1-40c4-bb2c-2908bbf732b6",
-      "project": "Marina",
-      "alt": "Marina photo 05",
-      "originalName": "2D5FC201-85B1-40C4-BB2C-2908BBF732B6.jpg",
-      "width": 4000,
-      "height": 6000,
-      "aspectRatio": 0.666667,
-      "placeholder": {
-        "path": "photos/marina/2d5fc201-85b1-40c4-bb2c-2908bbf732b6/placeholder.webp",
-        "width": 32,
-        "height": 48,
-        "bytes": 332
-      },
-      "thumb": {
-        "path": "photos/marina/2d5fc201-85b1-40c4-bb2c-2908bbf732b6/thumb.webp",
-        "width": 427,
-        "height": 640,
-        "bytes": 22496
-      },
-      "preview": {
-        "path": "photos/marina/2d5fc201-85b1-40c4-bb2c-2908bbf732b6/preview.webp",
-        "width": 1067,
-        "height": 1600,
-        "bytes": 100528
-      },
-      "large": {
-        "path": "photos/marina/2d5fc201-85b1-40c4-bb2c-2908bbf732b6/large.webp",
-        "width": 1707,
-        "height": 2560,
-        "bytes": 252380
-      },
-      "original": {
-        "path": "photos/marina/2d5fc201-85b1-40c4-bb2c-2908bbf732b6/original.jpg",
-        "width": 4000,
-        "height": 6000,
-        "bytes": 8851941
       }
     },
     {

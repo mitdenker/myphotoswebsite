@@ -19,7 +19,6 @@ const marinaGallery: string[] = [
   '/photos/marina/0d7406f0-7563-421c-bac5-2d20f440ec5f-2/preview.webp',
   '/photos/marina/0f9174b8-5bfd-4420-aba5-0816f84e7d92-2/preview.webp',
   '/photos/marina/2b8b0a98-5eff-4031-950c-3adfd88d93f5-2/preview.webp',
-  '/photos/marina/2d5fc201-85b1-40c4-bb2c-2908bbf732b6/preview.webp',
   '/photos/marina/4cdae7e2-ec08-4d52-b2da-0d993f288076-2/preview.webp',
   '/photos/marina/4db051f6-6d50-4302-b16b-28399a97abfe-2/preview.webp',
   '/photos/marina/5c20c36f-2f3c-435b-b121-273d77a47035-2/preview.webp',
