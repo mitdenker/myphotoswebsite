@@ -71,10 +71,12 @@ const ProjectDetail = () => {
       <section className={`px-6 md:px-12 ${hasLandscapeHero ? 'py-32' : 'pt-16 md:pt-20 pb-32'} grid grid-cols-1 md:grid-cols-12 gap-12`}>
           <div className="md:col-span-4 lg:col-span-3">
               <div className="space-y-12 md:sticky md:top-32">
-                  <div>
-                      <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4 block">Project Info</span>
-                      <p className="text-sm leading-relaxed text-black/60">{project.description}</p>
-                  </div>
+                  {project.description && (
+                    <div>
+                        <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4 block">Project Info</span>
+                        <p className="text-sm leading-relaxed text-black/60">{project.description}</p>
+                    </div>
+                  )}
                   <div className="flex gap-20">
                       <div>
                           <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-2 block">Location</span>
