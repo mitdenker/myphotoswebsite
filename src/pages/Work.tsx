@@ -114,7 +114,8 @@ const Work = () => {
   return (
     <section className="bg-[#f9f9f7]">
       {/* Border-to-border 3 Column Grid */}
-      <div ref={gridRef} className="pb-32 columns-1 md:columns-3 gap-0 space-y-0">
+      {/* Mobile: one column in list order */}
+      <div ref={gridRef} className="pb-32 md:hidden">
         {projects.map((project, index) => (
           <FloatingProjectCard
             key={project.id}
@@ -122,6 +123,23 @@ const Work = () => {
             index={index}
             scrollFloat={scrollFloat}
           />
+        ))}
+      </div>
+      {/* Desktop: 3 masonry columns filled row by row (1 2 3 / 4 5 6 / ...) */}
+      <div className="pb-32 hidden md:flex items-start">
+        {[0, 1, 2].map((col) => (
+          <div key={col} className="flex-1 min-w-0">
+            {projects.map((project, index) =>
+              index % 3 === col ? (
+                <FloatingProjectCard
+                  key={project.id}
+                  project={project}
+                  index={index}
+                  scrollFloat={scrollFloat}
+                />
+              ) : null,
+            )}
+          </div>
         ))}
       </div>
     </section>

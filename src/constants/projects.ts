@@ -333,10 +333,6 @@ const mishaGallery: string[] = [
 
 export const projects: Project[] = [
   {
-    id: 'lera', title: 'Lera', category: 'Portrait', year: '2026', description: '',
-    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'chenxi'
-  },
-  {
     id: 'chenxi',
     title: 'Chenxi',
     category: 'Portrait',
@@ -346,6 +342,22 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: chenxiCover,
     gallery: chenxiGallery,
+    nextId: 'lera'
+  },
+  {
+    id: 'lera', title: 'Lera', category: 'Portrait', year: '2026', description: '',
+    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'roma'
+  },
+  {
+    id: 'roma',
+    title: 'Roma',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: romaHero,
+    heroOrientation: 'portrait',
+    image: romaCover,
+    gallery: romaGallery,
     nextId: 'halloween'
   },
   {
@@ -374,19 +386,7 @@ export const projects: Project[] = [
   },
   {
     id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
-    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'roma'
-  },
-  {
-    id: 'roma',
-    title: 'Roma',
-    category: 'Portrait',
-    year: '2026',
-    description: '',
-    hero: romaHero,
-    heroOrientation: 'portrait',
-    image: romaCover,
-    gallery: romaGallery,
-    nextId: 'soraya'
+    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'soraya'
   },
   {
     id: 'soraya',
@@ -467,6 +467,6 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: jennyCover,
     gallery: jennyGallery,
-    nextId: 'lera'
+    nextId: 'chenxi'
   }
 ];
