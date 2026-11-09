@@ -83,7 +83,7 @@ const ProjectDetail = () => {
                   <div className="flex gap-20">
                       <div>
                           <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-2 block">Location</span>
-                          <p className="text-sm">Global</p>
+                          <p className="text-sm">{project.location ?? 'Lisbon'}</p>
                       </div>
                       <div>
                           <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-2 block">Year</span>

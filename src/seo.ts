@@ -53,12 +53,13 @@ export const contactsSeo = (): PageSeo => ({
 
 export const projectSeo = (project: Project): PageSeo => {
   const count = project.gallery.length;
+  const location = project.location ?? 'Lisbon';
   return {
     path: `/work/${project.id}`,
     title: `${project.title} — ${project.category} Series by Elena Korotkova`,
     description:
       project.description ||
-      `${project.title}: a ${project.category.toLowerCase()} series of ${count} photographs (${project.year}) by Elena Korotkova, a portrait photographer based in Lisbon.`,
+      `${project.title}: a ${project.category.toLowerCase()} series of ${count} photographs shot in ${location} (${project.year}) by Elena Korotkova, a portrait photographer based in Lisbon.`,
     image: project.image,
     imageAlt: `${project.title} — ${project.category.toLowerCase()} by ${SITE.person}`,
     ogType: 'article',
@@ -105,6 +106,7 @@ export const jsonLd = (page: PageSeo, projects: Project[], project?: Project) =>
       author: { '@id': `${SITE.url}/#person` },
       creator: { '@id': `${SITE.url}/#person` },
       dateCreated: project.year,
+      contentLocation: { '@type': 'Place', name: project.location ?? 'Lisbon' },
       genre: `${project.category} photography`,
       primaryImageOfPage: { '@type': 'ImageObject', contentUrl: abs(project.hero) },
       image: project.gallery.map((src, i) => ({

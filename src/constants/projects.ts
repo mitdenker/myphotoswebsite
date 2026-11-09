@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   category: string;
   year: string;
+  location?: string; // defaults to Lisbon
   description: string;
   hero: string;
   heroOrientation: 'landscape' | 'portrait';
@@ -238,12 +239,10 @@ const olgaGallery: string[] = [
   '/photos/olga/olga-02/preview.webp',
   '/photos/olga/olga-03/preview.webp',
   '/photos/olga/olga-04/preview.webp',
-  '/photos/olga/olga-05/preview.webp',
   '/photos/olga/olga-06/preview.webp',
   '/photos/olga/olga-07/preview.webp',
   '/photos/olga/olga-08/preview.webp',
   '/photos/olga/olga-09/preview.webp',
-  '/photos/olga/olga-10/preview.webp',
   '/photos/olga/olga-11/preview.webp',
   '/photos/olga/olga-12/preview.webp',
   '/photos/olga/olga-13/preview.webp',
@@ -426,7 +425,7 @@ export const projects: Project[] = [
     hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'berghein'
   },
   {
-    id: 'berghein', title: 'Olya', category: 'Portrait', year: '2026', description: '',
+    id: 'berghein', title: 'Olya', category: 'Portrait', year: '2026', location: 'Berlin', description: '',
     hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'misha'
   },
   {
@@ -462,6 +461,7 @@ export const projects: Project[] = [
     title: 'Jenny',
     category: 'Portrait',
     year: '2026',
+    location: 'Berlin',
     description: '',
     hero: jennyHero,
     heroOrientation: 'portrait',
