@@ -334,27 +334,19 @@ const mishaGallery: string[] = [
 
 export const projects: Project[] = [
   {
-    id: 'soraya',
-    title: 'Soraya',
-    category: 'Portrait',
-    year: '2026',
-    description: '',
-    hero: sorayaHero,
-    heroOrientation: 'portrait',
-    image: sorayaCover,
-    gallery: sorayaGallery,
-    nextId: 'roma'
+    id: 'lera', title: 'Lera', category: 'Portrait', year: '2026', description: '',
+    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'chenxi'
   },
   {
-    id: 'roma',
-    title: 'Roma',
+    id: 'chenxi',
+    title: 'Chenxi',
     category: 'Portrait',
     year: '2026',
     description: '',
-    hero: romaHero,
+    hero: chenxiHero,
     heroOrientation: 'portrait',
-    image: romaCover,
-    gallery: romaGallery,
+    image: chenxiCover,
+    gallery: chenxiGallery,
     nextId: 'halloween'
   },
   {
@@ -367,6 +359,46 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: halloweenCover,
     gallery: halloweenGallery,
+    nextId: 'chenxi2'
+  },
+  {
+    id: 'chenxi2',
+    title: 'Chenxi 2',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: chenxi2Hero,
+    heroOrientation: 'portrait',
+    image: chenxi2Cover,
+    gallery: chenxi2Gallery,
+    nextId: 'sereja'
+  },
+  {
+    id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
+    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'roma'
+  },
+  {
+    id: 'roma',
+    title: 'Roma',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: romaHero,
+    heroOrientation: 'portrait',
+    image: romaCover,
+    gallery: romaGallery,
+    nextId: 'soraya'
+  },
+  {
+    id: 'soraya',
+    title: 'Soraya',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: sorayaHero,
+    heroOrientation: 'portrait',
+    image: sorayaCover,
+    gallery: sorayaGallery,
     nextId: 'marina'
   },
   {
@@ -387,11 +419,7 @@ export const projects: Project[] = [
   },
   {
     id: 'olga', title: 'Olga', category: 'Portrait', year: '2026', description: '',
-    hero: olgaHero, heroOrientation: 'portrait', image: olgaCover, gallery: olgaGallery, nextId: 'lera'
-  },
-  {
-    id: 'lera', title: 'Lera', category: 'Portrait', year: '2026', description: '',
-    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'schmith'
+    hero: olgaHero, heroOrientation: 'portrait', image: olgaCover, gallery: olgaGallery, nextId: 'schmith'
   },
   {
     id: 'schmith', title: 'Schmith', category: 'Portrait', year: '2026', description: '',
@@ -403,35 +431,7 @@ export const projects: Project[] = [
   },
   {
     id: 'misha', title: 'Misha', category: 'Portrait', year: '2026', description: '',
-    hero: mishaHero, heroOrientation: 'portrait', image: mishaCover, gallery: mishaGallery, nextId: 'sereja'
-  },
-  {
-    id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
-    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'chenxi2'
-  },
-  {
-    id: 'chenxi2',
-    title: 'Chenxi 2',
-    category: 'Portrait',
-    year: '2026',
-    description: '',
-    hero: chenxi2Hero,
-    heroOrientation: 'portrait',
-    image: chenxi2Cover,
-    gallery: chenxi2Gallery,
-    nextId: 'chenxi'
-  },
-  {
-    id: 'chenxi',
-    title: 'Chenxi',
-    category: 'Portrait',
-    year: '2026',
-    description: '',
-    hero: chenxiHero,
-    heroOrientation: 'portrait',
-    image: chenxiCover,
-    gallery: chenxiGallery,
-    nextId: 'lena'
+    hero: mishaHero, heroOrientation: 'portrait', image: mishaCover, gallery: mishaGallery, nextId: 'lena'
   },
   {
     id: 'lena',
@@ -467,6 +467,6 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: jennyCover,
     gallery: jennyGallery,
-    nextId: 'soraya'
+    nextId: 'lera'
   }
 ];
