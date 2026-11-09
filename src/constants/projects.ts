@@ -303,7 +303,6 @@ const schmithGallery: string[] = [
 const bergheinCover = '/photos/berghein/berghein-14/preview.webp';
 const bergheinHero = '/photos/berghein/berghein-14/large.webp';
 const bergheinGallery: string[] = [
-  '/photos/berghein/berghein-01-crop/preview.webp',
   '/photos/berghein/berghein-02/preview.webp',
   '/photos/berghein/berghein-03/preview.webp',
   '/photos/berghein/berghein-04/preview.webp',
