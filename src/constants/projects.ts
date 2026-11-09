@@ -164,6 +164,27 @@ const sorayaGallery: string[] = [
   '/photos/soraya/d745db2f-9984-4550-ac3d-90df8ebc901b/preview.webp',
 ];
 
+const romaCover = '/photos/roma/roma-13/preview.webp';
+const romaHero = '/photos/roma/roma-13/large.webp';
+const romaGallery: string[] = [
+  '/photos/roma/roma-01/preview.webp',
+  '/photos/roma/roma-02/preview.webp',
+  '/photos/roma/roma-03/preview.webp',
+  '/photos/roma/roma-04/preview.webp',
+  '/photos/roma/roma-05/preview.webp',
+  '/photos/roma/roma-06/preview.webp',
+  '/photos/roma/roma-07/preview.webp',
+  '/photos/roma/roma-08/preview.webp',
+  '/photos/roma/roma-09/preview.webp',
+  '/photos/roma/roma-10/preview.webp',
+  '/photos/roma/roma-11/preview.webp',
+  '/photos/roma/roma-12/preview.webp',
+  '/photos/roma/roma-13/preview.webp',
+  '/photos/roma/roma-14/preview.webp',
+  '/photos/roma/roma-15/preview.webp',
+  '/photos/roma/roma-16/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -175,6 +196,18 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: sorayaCover,
     gallery: sorayaGallery,
+    nextId: 'roma'
+  },
+  {
+    id: 'roma',
+    title: 'Roma',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: romaHero,
+    heroOrientation: 'portrait',
+    image: romaCover,
+    gallery: romaGallery,
     nextId: 'marina'
   },
   {
