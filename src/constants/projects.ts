@@ -459,18 +459,6 @@ export const projects: Project[] = [
     heroOrientation: 'landscape',
     image: lenaCover,
     gallery: lenaGallery,
-    nextId: 'lena2'
-  },
-  {
-    id: 'lena2',
-    title: 'Lena 2',
-    category: 'Portrait',
-    year: '2025',
-    description: '',
-    hero: lena2Hero,
-    heroOrientation: 'landscape',
-    image: lena2Cover,
-    gallery: lena2Gallery,
     nextId: 'jenny'
   },
   {
@@ -488,6 +476,18 @@ export const projects: Project[] = [
   },
   {
     id: 'alena', title: 'Alena', category: 'Portrait', year: '2026', description: '',
-    hero: alenaHero, heroOrientation: 'portrait', image: alenaCover, gallery: alenaGallery, nextId: 'chenxi'
+    hero: alenaHero, heroOrientation: 'portrait', image: alenaCover, gallery: alenaGallery, nextId: 'lena2'
+  },
+  {
+    id: 'lena2',
+    title: 'Lena 2',
+    category: 'Portrait',
+    year: '2025',
+    description: '',
+    hero: lena2Hero,
+    heroOrientation: 'landscape',
+    image: lena2Cover,
+    gallery: lena2Gallery,
+    nextId: 'chenxi'
   }
 ];
