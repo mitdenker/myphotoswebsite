@@ -323,6 +323,20 @@ const bergheinGallery: string[] = [
   '/photos/berghein/berghein-18/preview.webp',
 ];
 
+const mishaCover = '/photos/misha/misha-01/preview.webp';
+const mishaHero = '/photos/misha/misha-01/large.webp';
+const mishaGallery: string[] = [
+  '/photos/misha/misha-01/preview.webp',
+  '/photos/misha/misha-02/preview.webp',
+  '/photos/misha/misha-03/preview.webp',
+  '/photos/misha/misha-04/preview.webp',
+  '/photos/misha/misha-05/preview.webp',
+  '/photos/misha/misha-06/preview.webp',
+  '/photos/misha/misha-07/preview.webp',
+  '/photos/misha/misha-08/preview.webp',
+  '/photos/misha/misha-09/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -378,7 +392,11 @@ export const projects: Project[] = [
   },
   {
     id: 'berghein', title: 'Olya Berghein', category: 'Portrait', year: '2026', description: '',
-    hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'sereja'
+    hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'misha'
+  },
+  {
+    id: 'misha', title: 'Misha', category: 'Portrait', year: '2026', description: '',
+    hero: mishaHero, heroOrientation: 'portrait', image: mishaCover, gallery: mishaGallery, nextId: 'sereja'
   },
   {
     id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
