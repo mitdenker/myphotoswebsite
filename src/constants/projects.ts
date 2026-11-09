@@ -142,12 +142,8 @@ const jennyGallery: string[] = [
 const sorayaCover = '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp';
 const sorayaHero = '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/large.webp';
 const sorayaGallery: string[] = [
-  '/photos/soraya/6c01a877-1d25-4c5c-93f0-f5b5f9315f42/preview.webp',
-  '/photos/soraya/420f9d98-d973-442d-a509-3752f30879f4/preview.webp',
-  '/photos/soraya/480a9210/preview.webp',
   '/photos/soraya/9ff2790c-6a1f-4961-aaf5-498c3325a035/preview.webp',
-  '/photos/soraya/480a8975/preview.webp',
-  '/photos/soraya/480a9112/preview.webp',
+  '/photos/soraya/480a9115/preview.webp',
   '/photos/soraya/480a8967/preview.webp',
   '/photos/soraya/fab1d23b-1ef8-414c-9f1b-1b327f61dc85/preview.webp',
   '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp',
