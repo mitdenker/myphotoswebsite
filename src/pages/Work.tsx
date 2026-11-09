@@ -22,11 +22,27 @@ const FloatingProjectCard: React.FC<{
 }> = ({ project, index, scrollFloat }) => {
   const shouldReduceMotion = useReducedMotion();
   const driftDirection = index % 2 === 0 ? 1 : -1;
+  const cardRef = React.useRef<HTMLDivElement>(null);
+  const heightRef = React.useRef(0);
+  React.useLayoutEffect(() => {
+    const el = cardRef.current;
+    if (!el) return;
+    const update = () => { heightRef.current = el.offsetHeight; };
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
   const imageY = useTransform(scrollFloat, (value: number) => value * driftDirection);
-  const imageScale = useTransform(scrollFloat, (value: number) => 1 + Math.min(Math.abs(value) / 400, 0.02));
+  // Scale up just enough that the shifted image always covers its frame:
+  // a shift of |y| px needs (2|y| + 2px safety) of extra height. Never shows a gap.
+  const imageScale = useTransform(scrollFloat, (value: number) => {
+    const h = heightRef.current || 400;
+    return 1 + (2 * Math.abs(value) + 2) / h;
+  });
 
   return (
-    <div className="group relative overflow-hidden break-inside-avoid">
+    <div ref={cardRef} className="group relative overflow-hidden break-inside-avoid">
       <Link to={`/work/${project.id}`} className="block">
         <motion.img
           style={shouldReduceMotion ? undefined : { y: imageY, scale: imageScale }}
