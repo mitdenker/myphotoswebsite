@@ -199,6 +199,23 @@ const halloweenGallery: string[] = [
   '/photos/halloween/halloween-13/preview.webp',
 ];
 
+const bernardoCover = '/photos/bernardo/bernardo-01/preview.webp';
+const bernardoHero = '/photos/bernardo/bernardo-01/large.webp';
+const bernardoGallery: string[] = [
+  '/photos/bernardo/bernardo-01/preview.webp',
+  '/photos/bernardo/bernardo-02/preview.webp',
+  '/photos/bernardo/bernardo-03/preview.webp',
+  '/photos/bernardo/bernardo-04/preview.webp',
+  '/photos/bernardo/bernardo-05/preview.webp',
+  '/photos/bernardo/bernardo-06/preview.webp',
+  '/photos/bernardo/bernardo-07/preview.webp',
+  '/photos/bernardo/bernardo-08/preview.webp',
+  '/photos/bernardo/bernardo-09/preview.webp',
+  '/photos/bernardo/bernardo-10/preview.webp',
+  '/photos/bernardo/bernardo-11/preview.webp',
+  '/photos/bernardo/bernardo-12/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -234,7 +251,11 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: halloweenCover,
     gallery: halloweenGallery,
-    nextId: 'marina'
+    nextId: 'bernardo'
+  },
+  {
+    id: 'bernardo', title: 'Bernardo', category: 'Portrait', year: '2026', description: '',
+    hero: bernardoHero, heroOrientation: 'portrait', image: bernardoCover, gallery: bernardoGallery, nextId: 'marina'
   },
   {
     id: 'marina',
