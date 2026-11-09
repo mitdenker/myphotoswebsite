@@ -185,6 +185,24 @@ const romaGallery: string[] = [
   '/photos/roma/roma-16/preview.webp',
 ];
 
+const halloweenCover = '/photos/halloween/halloween-11/preview.webp';
+const halloweenHero = '/photos/halloween/halloween-11/large.webp';
+const halloweenGallery: string[] = [
+  '/photos/halloween/halloween-01/preview.webp',
+  '/photos/halloween/halloween-02/preview.webp',
+  '/photos/halloween/halloween-03/preview.webp',
+  '/photos/halloween/halloween-04/preview.webp',
+  '/photos/halloween/halloween-05/preview.webp',
+  '/photos/halloween/halloween-06/preview.webp',
+  '/photos/halloween/halloween-07/preview.webp',
+  '/photos/halloween/halloween-08/preview.webp',
+  '/photos/halloween/halloween-09/preview.webp',
+  '/photos/halloween/halloween-10/preview.webp',
+  '/photos/halloween/halloween-11/preview.webp',
+  '/photos/halloween/halloween-12/preview.webp',
+  '/photos/halloween/halloween-13/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -208,6 +226,18 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: romaCover,
     gallery: romaGallery,
+    nextId: 'halloween'
+  },
+  {
+    id: 'halloween',
+    title: 'Halloween',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: halloweenHero,
+    heroOrientation: 'portrait',
+    image: halloweenCover,
+    gallery: halloweenGallery,
     nextId: 'marina'
   },
   {
