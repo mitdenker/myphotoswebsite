@@ -300,8 +300,8 @@ const schmithGallery: string[] = [
   '/photos/schmith/schmith-17/preview.webp',
 ];
 
-const bergheinCover = '/photos/berghein/berghein-01/preview.webp';
-const bergheinHero = '/photos/berghein/berghein-01/large.webp';
+const bergheinCover = '/photos/berghein/berghein-14/preview.webp';
+const bergheinHero = '/photos/berghein/berghein-14/large.webp';
 const bergheinGallery: string[] = [
   '/photos/berghein/berghein-01/preview.webp',
   '/photos/berghein/berghein-02/preview.webp',
@@ -310,12 +310,8 @@ const bergheinGallery: string[] = [
   '/photos/berghein/berghein-05/preview.webp',
   '/photos/berghein/berghein-06/preview.webp',
   '/photos/berghein/berghein-07/preview.webp',
-  '/photos/berghein/berghein-08/preview.webp',
-  '/photos/berghein/berghein-09/preview.webp',
-  '/photos/berghein/berghein-10/preview.webp',
   '/photos/berghein/berghein-11/preview.webp',
   '/photos/berghein/berghein-12/preview.webp',
-  '/photos/berghein/berghein-13/preview.webp',
   '/photos/berghein/berghein-14/preview.webp',
   '/photos/berghein/berghein-15/preview.webp',
   '/photos/berghein/berghein-16/preview.webp',
@@ -391,7 +387,7 @@ export const projects: Project[] = [
     hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'berghein'
   },
   {
-    id: 'berghein', title: 'Olya Berghein', category: 'Portrait', year: '2026', description: '',
+    id: 'berghein', title: 'Olya', category: 'Portrait', year: '2026', description: '',
     hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'misha'
   },
   {
