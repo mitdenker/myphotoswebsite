@@ -149,7 +149,7 @@ const sorayaGallery: string[] = [
   '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp',
   '/photos/soraya/334a18a5-ed25-4b6f-b5af-1d9992519865/preview.webp',
   '/photos/soraya/0ba707bc-be0b-4e53-9e43-e829ef8a53b8/preview.webp',
-  '/photos/soraya/480a0812/preview.webp',
+  '/photos/soraya/img6261/preview.webp',
   '/photos/soraya/480a1017/preview.webp',
   '/photos/soraya/480a0640/preview.webp',
   '/photos/soraya/5635879c-2ed2-4bb3-bdc1-2d4925f7b5de-bw/preview.webp',
