@@ -33,6 +33,21 @@ const FloatingProjectCard: React.FC<{
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
+  // Touch screens have no hover: colour the card that is in the middle of the screen.
+  const [isTouch, setIsTouch] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(hover: none)');
+    const update = () => setIsTouch(mq.matches);
+    update();
+    mq.addEventListener('change', update);
+    return () => mq.removeEventListener('change', update);
+  }, []);
+  const { scrollYProgress } = useScroll({ target: cardRef, offset: ['start end', 'end start'] });
+  const touchFilter = useTransform(scrollYProgress, (p: number) => {
+    // 0 = full colour when the card centre is at the screen centre, 1 = black & white near the edges
+    const d = Math.min(1, Math.max(0, (Math.abs(p - 0.5) - 0.04) / 0.36));
+    return `grayscale(${d}) brightness(${(0.9 + 0.1 * (1 - d)).toFixed(3)}) contrast(1.1)`;
+  });
   const imageY = useTransform(scrollFloat, (value: number) => value * driftDirection);
   // Scale up just enough that the shifted image always covers its frame:
   // a shift of |y| px needs (2|y| + 2px safety) of extra height. Never shows a gap.
@@ -45,14 +60,21 @@ const FloatingProjectCard: React.FC<{
     <div ref={cardRef} className="group relative overflow-hidden break-inside-avoid">
       <Link to={`/work/${project.id}`} className="block">
         <motion.img
-          style={shouldReduceMotion ? undefined : { y: imageY, scale: imageScale }}
+          style={{
+            ...(shouldReduceMotion ? {} : { y: imageY, scale: imageScale }),
+            ...(isTouch ? { filter: touchFilter } : {}),
+          }}
           whileHover={shouldReduceMotion ? undefined : { scale: 1.06 }}
           transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           src={project.image}
           alt={`${project.title} — ${project.category.toLowerCase()} by Elena Korotkova`}
           loading="lazy"
           decoding="async"
-          className="block w-full grayscale brightness-90 contrast-110 group-hover:grayscale-0 transition-[filter,scale] duration-1000"
+          className={
+            isTouch
+              ? 'block w-full'
+              : 'block w-full grayscale brightness-90 contrast-110 group-hover:grayscale-0 transition-[filter,scale] duration-1000'
+          }
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-700 p-8 flex flex-col justify-end text-white">
           <div className="flex justify-between items-end transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
