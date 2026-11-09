@@ -12,6 +12,8 @@ import {
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { projects, type Project } from '../constants/projects';
+import { homeSeo } from '../seo';
+import { useSeo } from '../useSeo';
 
 const FloatingProjectCard: React.FC<{
   project: Project;
@@ -31,7 +33,7 @@ const FloatingProjectCard: React.FC<{
           whileHover={shouldReduceMotion ? undefined : { scale: 1.06 }}
           transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           src={project.image}
-          alt={project.title}
+          alt={`${project.title} — ${project.category.toLowerCase()} by Elena Korotkova`}
           loading="lazy"
           decoding="async"
           className="block w-full grayscale brightness-90 contrast-110 group-hover:grayscale-0 transition-[filter,scale] duration-1000"
@@ -51,6 +53,7 @@ const FloatingProjectCard: React.FC<{
 };
 
 const Work = () => {
+  useSeo(homeSeo(projects));
   const gridRef = React.useRef<HTMLDivElement>(null);
   const shouldReduceMotion = useReducedMotion();
   const { scrollY } = useScroll();

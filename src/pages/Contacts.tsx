@@ -1,11 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Send } from 'lucide-react';
+import { contactsSeo } from '../seo';
+import { useSeo } from '../useSeo';
 
 const EMAIL = 'korotko.elena@gmail.com';
 const INSTAGRAM_URL = 'https://www.instagram.com/whirlfull/';
 
 const Contacts = () => {
+  useSeo(contactsSeo());
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);

@@ -3,11 +3,14 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { projects } from '../constants/projects';
+import { projectSeo } from '../seo';
+import { useSeo } from '../useSeo';
 
 const ProjectDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const project = projects.find(p => p.id === id);
+  useSeo(project ? projectSeo(project) : null, project);
 
   React.useEffect(() => {
     if (!project) {
@@ -35,7 +38,7 @@ const ProjectDetail = () => {
               animate={{ scale: 1 }}
               transition={{ duration: 2, ease: [0.22, 1, 0.36, 1] }}
               src={project.hero} 
-              alt={project.title}
+              alt={`${project.title} — ${project.category.toLowerCase()} by Elena Korotkova`}
               loading="eager"
               decoding="async"
               className="w-full h-full object-cover grayscale brightness-90"
@@ -103,7 +106,7 @@ const ProjectDetail = () => {
                       <div className="overflow-hidden bg-zinc-100">
                           <img 
                             src={img} 
-                            alt={`${project.title} figure ${i + 1}`}
+                            alt={`${project.title}, figure ${String(i + 1).padStart(2, '0')} by Elena Korotkova`}
                             loading="lazy"
                             decoding="async"
                             className="w-full grayscale brightness-110 hover:grayscale-0 hover:scale-105 transition-all duration-1000"
