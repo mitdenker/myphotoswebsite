@@ -81,12 +81,12 @@ const chenxiGallery: string[] = [
   '/photos/chenxi/img-2158/preview.webp',
 ];
 
-const lenaCover = '/photos/lena/img-1561/preview.webp';
-const lenaHero = '/photos/lena/img-1561/large.webp';
+const lenaCover = '/photos/lena/img-1613/preview.webp';
+const lenaHero = '/photos/lena/img-1613/large.webp';
 const lenaGallery: string[] = [
   lenaCover,
   '/photos/lena/img-1577/preview.webp',
-  '/photos/lena/img-1613/preview.webp',
+  '/photos/lena/img-1561/preview.webp',
   '/photos/lena/img-1614/preview.webp',
   '/photos/lena/img-1705-1/preview.webp',
   '/photos/lena/img-1708-1/preview.webp',
@@ -283,7 +283,7 @@ export const projects: Project[] = [
     year: '2026',
     description: '',
     hero: lenaHero,
-    heroOrientation: 'portrait',
+    heroOrientation: 'landscape',
     image: lenaCover,
     gallery: lenaGallery,
     nextId: 'lena2'
