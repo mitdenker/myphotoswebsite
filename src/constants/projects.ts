@@ -139,11 +139,11 @@ const jennyGallery: string[] = [
   '/photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/preview.webp',
 ];
 
-const sorayaCover = '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp';
-const sorayaHero = '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/large.webp';
+const sorayaCover = '/photos/soraya/5635879c-2ed2-4bb3-bdc1-2d4925f7b5de-bw/preview.webp';
+const sorayaHero = '/photos/soraya/5635879c-2ed2-4bb3-bdc1-2d4925f7b5de-bw/large.webp';
 const sorayaGallery: string[] = [
   '/photos/soraya/9ff2790c-6a1f-4961-aaf5-498c3325a035/preview.webp',
-  '/photos/soraya/480a9115/preview.webp',
+  '/photos/soraya/480a9136/preview.webp',
   '/photos/soraya/480a8967/preview.webp',
   '/photos/soraya/fab1d23b-1ef8-414c-9f1b-1b327f61dc85/preview.webp',
   '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp',
@@ -160,8 +160,8 @@ const sorayaGallery: string[] = [
   '/photos/soraya/d745db2f-9984-4550-ac3d-90df8ebc901b/preview.webp',
 ];
 
-const romaCover = '/photos/roma/roma-13/preview.webp';
-const romaHero = '/photos/roma/roma-13/large.webp';
+const romaCover = '/photos/roma/roma-14/preview.webp';
+const romaHero = '/photos/roma/roma-14/large.webp';
 const romaGallery: string[] = [
   '/photos/roma/roma-01/preview.webp',
   '/photos/roma/roma-02/preview.webp',
@@ -170,9 +170,7 @@ const romaGallery: string[] = [
   '/photos/roma/roma-05/preview.webp',
   '/photos/roma/roma-06/preview.webp',
   '/photos/roma/roma-07/preview.webp',
-  '/photos/roma/roma-08/preview.webp',
   '/photos/roma/roma-09/preview.webp',
-  '/photos/roma/roma-10/preview.webp',
   '/photos/roma/roma-11/preview.webp',
   '/photos/roma/roma-12/preview.webp',
   '/photos/roma/roma-13/preview.webp',
@@ -364,11 +362,7 @@ export const projects: Project[] = [
   },
   {
     id: 'bernardo', title: 'Bernardo', category: 'Portrait', year: '2026', description: '',
-    hero: bernardoHero, heroOrientation: 'portrait', image: bernardoCover, gallery: bernardoGallery, nextId: 'sereja'
-  },
-  {
-    id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
-    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'olga'
+    hero: bernardoHero, heroOrientation: 'portrait', image: bernardoCover, gallery: bernardoGallery, nextId: 'olga'
   },
   {
     id: 'olga', title: 'Olga', category: 'Portrait', year: '2026', description: '',
@@ -384,7 +378,11 @@ export const projects: Project[] = [
   },
   {
     id: 'berghein', title: 'Olya Berghein', category: 'Portrait', year: '2026', description: '',
-    hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'marina'
+    hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'sereja'
+  },
+  {
+    id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
+    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'marina'
   },
   {
     id: 'marina',
