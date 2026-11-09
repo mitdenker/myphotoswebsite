@@ -1,0 +1,564 @@
+{
+  "project": "Alena",
+  "sourceDir": "photos/Alena",
+  "outputDir": "public/photos/alena",
+  "basePath": "photos/alena",
+  "generatedAt": "2026-05-24T21:45:23.107Z",
+  "variantPolicy": {
+    "placeholder": "48px max edge WebP for blur-up placeholders",
+    "thumb": "640px max edge WebP for grids",
+    "preview": "1600px max edge WebP for detail pages",
+    "large": "2560px max edge WebP for lightboxes",
+    "original": "Untouched source file for explicit full-resolution views or downloads"
+  },
+  "uploadHint": "Sync public/photos/alena to your bucket under photos/alena/",
+  "count": 14,
+  "photos": [
+    {
+      "id": "3b6af7df-b6ea-47ad-b380-76581df6ca57",
+      "project": "Alena",
+      "alt": "Alena photo 01",
+      "originalName": "3B6AF7DF-B6EA-47AD-B380-76581DF6CA57.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 340
+      },
+      "thumb": {
+        "path": "photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 25538
+      },
+      "preview": {
+        "path": "photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 135578
+      },
+      "large": {
+        "path": "photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 404782
+      },
+      "original": {
+        "path": "photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 5709261
+      }
+    },
+    {
+      "id": "5eed4d44-1628-43c5-a986-6edcb4a6f329",
+      "project": "Alena",
+      "alt": "Alena photo 02",
+      "originalName": "5EED4D44-1628-43C5-A986-6EDCB4A6F329.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/5eed4d44-1628-43c5-a986-6edcb4a6f329/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 246
+      },
+      "thumb": {
+        "path": "photos/alena/5eed4d44-1628-43c5-a986-6edcb4a6f329/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 20254
+      },
+      "preview": {
+        "path": "photos/alena/5eed4d44-1628-43c5-a986-6edcb4a6f329/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 99332
+      },
+      "large": {
+        "path": "photos/alena/5eed4d44-1628-43c5-a986-6edcb4a6f329/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 238556
+      },
+      "original": {
+        "path": "photos/alena/5eed4d44-1628-43c5-a986-6edcb4a6f329/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 3050765
+      }
+    },
+    {
+      "id": "7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a",
+      "project": "Alena",
+      "alt": "Alena photo 03",
+      "originalName": "7A3E6A28-D46B-4E32-972B-BDC42EBEEB0A.jpeg",
+      "width": 3488,
+      "height": 5231,
+      "aspectRatio": 0.666794,
+      "placeholder": {
+        "path": "photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 352
+      },
+      "thumb": {
+        "path": "photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 34978
+      },
+      "preview": {
+        "path": "photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 199042
+      },
+      "large": {
+        "path": "photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 523950
+      },
+      "original": {
+        "path": "photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/original.jpg",
+        "width": 3488,
+        "height": 5231,
+        "bytes": 4710804
+      }
+    },
+    {
+      "id": "32aaeb94-249b-4a84-a241-6c901ffa4af7",
+      "project": "Alena",
+      "alt": "Alena photo 04",
+      "originalName": "32AAEB94-249B-4A84-A241-6C901FFA4AF7.jpeg",
+      "width": 3705,
+      "height": 5558,
+      "aspectRatio": 0.666607,
+      "placeholder": {
+        "path": "photos/alena/32aaeb94-249b-4a84-a241-6c901ffa4af7/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 376
+      },
+      "thumb": {
+        "path": "photos/alena/32aaeb94-249b-4a84-a241-6c901ffa4af7/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 37246
+      },
+      "preview": {
+        "path": "photos/alena/32aaeb94-249b-4a84-a241-6c901ffa4af7/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 170238
+      },
+      "large": {
+        "path": "photos/alena/32aaeb94-249b-4a84-a241-6c901ffa4af7/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 413752
+      },
+      "original": {
+        "path": "photos/alena/32aaeb94-249b-4a84-a241-6c901ffa4af7/original.jpg",
+        "width": 3705,
+        "height": 5558,
+        "bytes": 5315144
+      }
+    },
+    {
+      "id": "75a96a27-1bf6-4641-9431-5d4f4ad74ad3",
+      "project": "Alena",
+      "alt": "Alena photo 05",
+      "originalName": "75A96A27-1BF6-4641-9431-5D4F4AD74AD3.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/75a96a27-1bf6-4641-9431-5d4f4ad74ad3/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 336
+      },
+      "thumb": {
+        "path": "photos/alena/75a96a27-1bf6-4641-9431-5d4f4ad74ad3/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 33878
+      },
+      "preview": {
+        "path": "photos/alena/75a96a27-1bf6-4641-9431-5d4f4ad74ad3/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 163482
+      },
+      "large": {
+        "path": "photos/alena/75a96a27-1bf6-4641-9431-5d4f4ad74ad3/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 392382
+      },
+      "original": {
+        "path": "photos/alena/75a96a27-1bf6-4641-9431-5d4f4ad74ad3/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4870001
+      }
+    },
+    {
+      "id": "88c74645-1219-4863-8393-515522bd5f21",
+      "project": "Alena",
+      "alt": "Alena photo 06",
+      "originalName": "88C74645-1219-4863-8393-515522BD5F21.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/88c74645-1219-4863-8393-515522bd5f21/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 220
+      },
+      "thumb": {
+        "path": "photos/alena/88c74645-1219-4863-8393-515522bd5f21/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 11238
+      },
+      "preview": {
+        "path": "photos/alena/88c74645-1219-4863-8393-515522bd5f21/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 51450
+      },
+      "large": {
+        "path": "photos/alena/88c74645-1219-4863-8393-515522bd5f21/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 146828
+      },
+      "original": {
+        "path": "photos/alena/88c74645-1219-4863-8393-515522bd5f21/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 3436047
+      }
+    },
+    {
+      "id": "9180a5d8-57d2-4bc0-880b-6d0fcdac86d2",
+      "project": "Alena",
+      "alt": "Alena photo 07",
+      "originalName": "9180A5D8-57D2-4BC0-880B-6D0FCDAC86D2.jpeg",
+      "width": 2773,
+      "height": 4160,
+      "aspectRatio": 0.666587,
+      "placeholder": {
+        "path": "photos/alena/9180a5d8-57d2-4bc0-880b-6d0fcdac86d2/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 292
+      },
+      "thumb": {
+        "path": "photos/alena/9180a5d8-57d2-4bc0-880b-6d0fcdac86d2/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 17958
+      },
+      "preview": {
+        "path": "photos/alena/9180a5d8-57d2-4bc0-880b-6d0fcdac86d2/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 86484
+      },
+      "large": {
+        "path": "photos/alena/9180a5d8-57d2-4bc0-880b-6d0fcdac86d2/large.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 234212
+      },
+      "original": {
+        "path": "photos/alena/9180a5d8-57d2-4bc0-880b-6d0fcdac86d2/original.jpg",
+        "width": 2773,
+        "height": 4160,
+        "bytes": 2282817
+      }
+    },
+    {
+      "id": "31290c7c-0c2d-4859-8545-f9d5b90cac62",
+      "project": "Alena",
+      "alt": "Alena photo 08",
+      "originalName": "31290C7C-0C2D-4859-8545-F9D5B90CAC62.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/31290c7c-0c2d-4859-8545-f9d5b90cac62/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 314
+      },
+      "thumb": {
+        "path": "photos/alena/31290c7c-0c2d-4859-8545-f9d5b90cac62/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 22874
+      },
+      "preview": {
+        "path": "photos/alena/31290c7c-0c2d-4859-8545-f9d5b90cac62/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 206366
+      },
+      "large": {
+        "path": "photos/alena/31290c7c-0c2d-4859-8545-f9d5b90cac62/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 579768
+      },
+      "original": {
+        "path": "photos/alena/31290c7c-0c2d-4859-8545-f9d5b90cac62/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 6232663
+      }
+    },
+    {
+      "id": "8362417d-9ec1-403c-afd3-d4b999299114",
+      "project": "Alena",
+      "alt": "Alena photo 09",
+      "originalName": "8362417D-9EC1-403C-AFD3-D4B999299114.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/8362417d-9ec1-403c-afd3-d4b999299114/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 318
+      },
+      "thumb": {
+        "path": "photos/alena/8362417d-9ec1-403c-afd3-d4b999299114/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 29292
+      },
+      "preview": {
+        "path": "photos/alena/8362417d-9ec1-403c-afd3-d4b999299114/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 142858
+      },
+      "large": {
+        "path": "photos/alena/8362417d-9ec1-403c-afd3-d4b999299114/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 344738
+      },
+      "original": {
+        "path": "photos/alena/8362417d-9ec1-403c-afd3-d4b999299114/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4731501
+      }
+    },
+    {
+      "id": "be7b2c47-4a8d-4d49-9682-3bec0f1c60ad",
+      "project": "Alena",
+      "alt": "Alena photo 10",
+      "originalName": "BE7B2C47-4A8D-4D49-9682-3BEC0F1C60AD.jpeg",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/alena/be7b2c47-4a8d-4d49-9682-3bec0f1c60ad/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 352
+      },
+      "thumb": {
+        "path": "photos/alena/be7b2c47-4a8d-4d49-9682-3bec0f1c60ad/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 35238
+      },
+      "preview": {
+        "path": "photos/alena/be7b2c47-4a8d-4d49-9682-3bec0f1c60ad/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 149580
+      },
+      "large": {
+        "path": "photos/alena/be7b2c47-4a8d-4d49-9682-3bec0f1c60ad/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 338966
+      },
+      "original": {
+        "path": "photos/alena/be7b2c47-4a8d-4d49-9682-3bec0f1c60ad/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 4788380
+      }
+    },
+    {
+      "id": "cdab9f9c-4f96-4921-8864-2939ef72677a",
+      "project": "Alena",
+      "alt": "Alena photo 11",
+      "originalName": "CDAB9F9C-4F96-4921-8864-2939EF72677A.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/cdab9f9c-4f96-4921-8864-2939ef72677a/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 428
+      },
+      "thumb": {
+        "path": "photos/alena/cdab9f9c-4f96-4921-8864-2939ef72677a/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 29236
+      },
+      "preview": {
+        "path": "photos/alena/cdab9f9c-4f96-4921-8864-2939ef72677a/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 117768
+      },
+      "large": {
+        "path": "photos/alena/cdab9f9c-4f96-4921-8864-2939ef72677a/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 296186
+      },
+      "original": {
+        "path": "photos/alena/cdab9f9c-4f96-4921-8864-2939ef72677a/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 5397427
+      }
+    },
+    {
+      "id": "dsc06688",
+      "project": "Alena",
+      "alt": "Alena photo 12",
+      "originalName": "DSC06688.JPG",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/dsc06688/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 318
+      },
+      "thumb": {
+        "path": "photos/alena/dsc06688/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 22750
+      },
+      "preview": {
+        "path": "photos/alena/dsc06688/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 205852
+      },
+      "large": {
+        "path": "photos/alena/dsc06688/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 574070
+      },
+      "original": {
+        "path": "photos/alena/dsc06688/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 16602148
+      }
+    },
+    {
+      "id": "dsc06740",
+      "project": "Alena",
+      "alt": "Alena photo 13",
+      "originalName": "DSC06740.JPG",
+      "width": 6000,
+      "height": 4000,
+      "aspectRatio": 1.5,
+      "placeholder": {
+        "path": "photos/alena/dsc06740/placeholder.webp",
+        "width": 48,
+        "height": 32,
+        "bytes": 216
+      },
+      "thumb": {
+        "path": "photos/alena/dsc06740/thumb.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 13242
+      },
+      "preview": {
+        "path": "photos/alena/dsc06740/preview.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 59244
+      },
+      "large": {
+        "path": "photos/alena/dsc06740/large.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 146334
+      },
+      "original": {
+        "path": "photos/alena/dsc06740/original.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 10780672
+      }
+    },
+    {
+      "id": "e3cf4bee-b0f6-4638-8655-c8a3f2f86f92",
+      "project": "Alena",
+      "alt": "Alena photo 14",
+      "originalName": "E3CF4BEE-B0F6-4638-8655-C8A3F2F86F92.jpeg",
+      "width": 4000,
+      "height": 6000,
+      "aspectRatio": 0.666667,
+      "placeholder": {
+        "path": "photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/placeholder.webp",
+        "width": 32,
+        "height": 48,
+        "bytes": 320
+      },
+      "thumb": {
+        "path": "photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/thumb.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 15506
+      },
+      "preview": {
+        "path": "photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/preview.webp",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 77896
+      },
+      "large": {
+        "path": "photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/large.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 221518
+      },
+      "original": {
+        "path": "photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/original.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4619892
+      }
+    }
+  ]
+}
