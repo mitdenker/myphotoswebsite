@@ -280,6 +280,28 @@ const leraGallery: string[] = [
   '/photos/lera/lera-18/preview.webp',
 ];
 
+const schmithCover = '/photos/schmith/schmith-01/preview.webp';
+const schmithHero = '/photos/schmith/schmith-01/large.webp';
+const schmithGallery: string[] = [
+  '/photos/schmith/schmith-01/preview.webp',
+  '/photos/schmith/schmith-02/preview.webp',
+  '/photos/schmith/schmith-03/preview.webp',
+  '/photos/schmith/schmith-04/preview.webp',
+  '/photos/schmith/schmith-05/preview.webp',
+  '/photos/schmith/schmith-06/preview.webp',
+  '/photos/schmith/schmith-07/preview.webp',
+  '/photos/schmith/schmith-08/preview.webp',
+  '/photos/schmith/schmith-09/preview.webp',
+  '/photos/schmith/schmith-10/preview.webp',
+  '/photos/schmith/schmith-11/preview.webp',
+  '/photos/schmith/schmith-12/preview.webp',
+  '/photos/schmith/schmith-13/preview.webp',
+  '/photos/schmith/schmith-14/preview.webp',
+  '/photos/schmith/schmith-15/preview.webp',
+  '/photos/schmith/schmith-16/preview.webp',
+  '/photos/schmith/schmith-17/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -331,7 +353,11 @@ export const projects: Project[] = [
   },
   {
     id: 'lera', title: 'Lera', category: 'Portrait', year: '2026', description: '',
-    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'marina'
+    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'schmith'
+  },
+  {
+    id: 'schmith', title: 'Schmith', category: 'Portrait', year: '2026', description: '',
+    hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'marina'
   },
   {
     id: 'marina',
