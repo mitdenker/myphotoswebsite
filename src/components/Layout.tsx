@@ -108,16 +108,19 @@ const Footer = () => {
           <h2 className="text-2xl md:text-3xl font-serif italic max-w-sm mb-8 leading-tight">
             Light, shadow and the people in between.
           </h2>
-          <div className="flex gap-8 text-[10px] font-semibold uppercase tracking-widest text-black/40">
-            <a href="https://www.instagram.com/whirlfull/" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">Instagram</a>
-            <a href="mailto:korotko.elena@gmail.com" className="hover:text-black transition-colors">Email</a>
-          </div>
         </div>
-        
-        <div className="flex flex-col gap-4">
-          <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-4">Contact</span>
-          <a href="mailto:korotko.elena@gmail.com" className="text-sm hover:underline break-all">korotko.elena@gmail.com</a>
-          <p className="text-sm">Lisbon, Portugal</p>
+
+        <div className="flex flex-col gap-3">
+          <span className="text-[10px] uppercase tracking-widest text-black/30 font-bold mb-3">Contact</span>
+          <p className="text-sm">
+            <span className="text-black/40">Instagram </span>
+            <a href="https://www.instagram.com/whirlfull/" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-black/50 transition-colors">@whirlfull</a>
+          </p>
+          <p className="text-sm">
+            <span className="text-black/40">Email </span>
+            <a href="mailto:korotko.elena@gmail.com" className="underline underline-offset-4 hover:text-black/50 transition-colors break-all">korotko.elena@gmail.com</a>
+          </p>
+          <p className="text-sm text-black/40">Lisbon, Portugal</p>
         </div>
 
         <div className="flex flex-col gap-4">

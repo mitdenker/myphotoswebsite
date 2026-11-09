@@ -179,8 +179,11 @@ const Contacts = () => {
       <section className="px-6 md:px-12 pb-32">
         <div className="h-[60vh] overflow-hidden grayscale brightness-75">
           <img
-            src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=2000&auto=format&fit=crop"
-            alt="Studio contact visual"
+            src="/photos/contacts/soraya-sea/large.webp"
+            srcSet="/photos/contacts/soraya-sea/preview.webp 1600w, /photos/contacts/soraya-sea/large.webp 2560w"
+            sizes="100vw"
+            loading="lazy"
+            alt="Soraya sitting on a chair in the sea — portrait by Elena Korotkova"
             className="w-full h-full object-cover hover:scale-110 transition-transform duration-[4000ms]"
           />
         </div>
