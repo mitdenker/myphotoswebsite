@@ -216,6 +216,46 @@ const bernardoGallery: string[] = [
   '/photos/bernardo/bernardo-12/preview.webp',
 ];
 
+const serejaCover = '/photos/sereja/sereja-09/preview.webp';
+const serejaHero = '/photos/sereja/sereja-09/large.webp';
+const serejaGallery: string[] = [
+  '/photos/sereja/sereja-01/preview.webp',
+  '/photos/sereja/sereja-02/preview.webp',
+  '/photos/sereja/sereja-03/preview.webp',
+  '/photos/sereja/sereja-04/preview.webp',
+  '/photos/sereja/sereja-05/preview.webp',
+  '/photos/sereja/sereja-06/preview.webp',
+  '/photos/sereja/sereja-07/preview.webp',
+  '/photos/sereja/sereja-08/preview.webp',
+  '/photos/sereja/sereja-09/preview.webp',
+  '/photos/sereja/sereja-10/preview.webp',
+  '/photos/sereja/sereja-11/preview.webp',
+  '/photos/sereja/sereja-12/preview.webp',
+];
+
+const olgaCover = '/photos/olga/olga-01/preview.webp';
+const olgaHero = '/photos/olga/olga-01/large.webp';
+const olgaGallery: string[] = [
+  '/photos/olga/olga-01/preview.webp',
+  '/photos/olga/olga-02/preview.webp',
+  '/photos/olga/olga-03/preview.webp',
+  '/photos/olga/olga-04/preview.webp',
+  '/photos/olga/olga-05/preview.webp',
+  '/photos/olga/olga-06/preview.webp',
+  '/photos/olga/olga-07/preview.webp',
+  '/photos/olga/olga-08/preview.webp',
+  '/photos/olga/olga-09/preview.webp',
+  '/photos/olga/olga-10/preview.webp',
+  '/photos/olga/olga-11/preview.webp',
+  '/photos/olga/olga-12/preview.webp',
+  '/photos/olga/olga-13/preview.webp',
+  '/photos/olga/olga-14/preview.webp',
+  '/photos/olga/olga-15/preview.webp',
+  '/photos/olga/olga-16/preview.webp',
+  '/photos/olga/olga-17/preview.webp',
+  '/photos/olga/olga-18/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -255,7 +295,15 @@ export const projects: Project[] = [
   },
   {
     id: 'bernardo', title: 'Bernardo', category: 'Portrait', year: '2026', description: '',
-    hero: bernardoHero, heroOrientation: 'portrait', image: bernardoCover, gallery: bernardoGallery, nextId: 'marina'
+    hero: bernardoHero, heroOrientation: 'portrait', image: bernardoCover, gallery: bernardoGallery, nextId: 'sereja'
+  },
+  {
+    id: 'sereja', title: 'Sereja', category: 'Portrait', year: '2026', description: '',
+    hero: serejaHero, heroOrientation: 'portrait', image: serejaCover, gallery: serejaGallery, nextId: 'olga'
+  },
+  {
+    id: 'olga', title: 'Olga', category: 'Portrait', year: '2026', description: '',
+    hero: olgaHero, heroOrientation: 'portrait', image: olgaCover, gallery: olgaGallery, nextId: 'marina'
   },
   {
     id: 'marina',
