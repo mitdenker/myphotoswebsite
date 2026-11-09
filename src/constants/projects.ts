@@ -256,6 +256,30 @@ const olgaGallery: string[] = [
   '/photos/olga/olga-18/preview.webp',
 ];
 
+const leraCover = '/photos/lera/lera-01/preview.webp';
+const leraHero = '/photos/lera/lera-01/large.webp';
+const leraGallery: string[] = [
+  '/photos/lera/lera-01/preview.webp',
+  '/photos/lera/lera-02/preview.webp',
+  '/photos/lera/lera-03/preview.webp',
+  '/photos/lera/lera-04/preview.webp',
+  '/photos/lera/lera-05/preview.webp',
+  '/photos/lera/lera-06/preview.webp',
+  '/photos/lera/lera-07/preview.webp',
+  '/photos/lera/lera-08/preview.webp',
+  '/photos/lera/lera-09/preview.webp',
+  '/photos/lera/lera-10/preview.webp',
+  '/photos/lera/lera-11/preview.webp',
+  '/photos/lera/lera-12/preview.webp',
+  '/photos/lera/lera-19/preview.webp',
+  '/photos/lera/lera-13/preview.webp',
+  '/photos/lera/lera-14/preview.webp',
+  '/photos/lera/lera-15/preview.webp',
+  '/photos/lera/lera-16/preview.webp',
+  '/photos/lera/lera-17/preview.webp',
+  '/photos/lera/lera-18/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'soraya',
@@ -303,7 +327,11 @@ export const projects: Project[] = [
   },
   {
     id: 'olga', title: 'Olga', category: 'Portrait', year: '2026', description: '',
-    hero: olgaHero, heroOrientation: 'portrait', image: olgaCover, gallery: olgaGallery, nextId: 'marina'
+    hero: olgaHero, heroOrientation: 'portrait', image: olgaCover, gallery: olgaGallery, nextId: 'lera'
+  },
+  {
+    id: 'lera', title: 'Lera', category: 'Portrait', year: '2026', description: '',
+    hero: leraHero, heroOrientation: 'portrait', image: leraCover, gallery: leraGallery, nextId: 'marina'
   },
   {
     id: 'marina',
