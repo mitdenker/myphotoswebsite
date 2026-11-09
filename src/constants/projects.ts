@@ -415,7 +415,15 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: sorayaCover,
     gallery: sorayaGallery,
-    nextId: 'marina'
+    nextId: 'berghein'
+  },
+  {
+    id: 'berghein', title: 'Olya', category: 'Portrait', year: '2026', location: 'Berlin', description: '',
+    hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'misha'
+  },
+  {
+    id: 'misha', title: 'Misha', category: 'Portrait', year: '2026', description: '',
+    hero: mishaHero, heroOrientation: 'portrait', image: mishaCover, gallery: mishaGallery, nextId: 'marina'
   },
   {
     id: 'marina',
@@ -439,15 +447,7 @@ export const projects: Project[] = [
   },
   {
     id: 'schmith', title: 'Schmith', category: 'Portrait', year: '2026', description: '',
-    hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'berghein'
-  },
-  {
-    id: 'berghein', title: 'Olya', category: 'Portrait', year: '2026', location: 'Berlin', description: '',
-    hero: bergheinHero, heroOrientation: 'portrait', image: bergheinCover, gallery: bergheinGallery, nextId: 'misha'
-  },
-  {
-    id: 'misha', title: 'Misha', category: 'Portrait', year: '2026', description: '',
-    hero: mishaHero, heroOrientation: 'portrait', image: mishaCover, gallery: mishaGallery, nextId: 'lena'
+    hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'lena'
   },
   {
     id: 'lena',
