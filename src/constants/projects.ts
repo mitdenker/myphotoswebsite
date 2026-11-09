@@ -139,7 +139,43 @@ const jennyGallery: string[] = [
   '/photos/jenny/fa3b5345-2156-4e54-8285-fa14088d9f8e/preview.webp',
 ];
 
+const sorayaCover = '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp';
+const sorayaHero = '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/large.webp';
+const sorayaGallery: string[] = [
+  '/photos/soraya/6c01a877-1d25-4c5c-93f0-f5b5f9315f42/preview.webp',
+  '/photos/soraya/420f9d98-d973-442d-a509-3752f30879f4/preview.webp',
+  '/photos/soraya/480a9210/preview.webp',
+  '/photos/soraya/9ff2790c-6a1f-4961-aaf5-498c3325a035/preview.webp',
+  '/photos/soraya/480a8975/preview.webp',
+  '/photos/soraya/480a9112/preview.webp',
+  '/photos/soraya/480a8967/preview.webp',
+  '/photos/soraya/fab1d23b-1ef8-414c-9f1b-1b327f61dc85/preview.webp',
+  '/photos/soraya/6f737748-e41b-47ff-9f02-a623f7b2ec0c/preview.webp',
+  '/photos/soraya/334a18a5-ed25-4b6f-b5af-1d9992519865/preview.webp',
+  '/photos/soraya/0ba707bc-be0b-4e53-9e43-e829ef8a53b8/preview.webp',
+  '/photos/soraya/480a0812/preview.webp',
+  '/photos/soraya/480a1017/preview.webp',
+  '/photos/soraya/480a0640/preview.webp',
+  '/photos/soraya/480a0929/preview.webp',
+  '/photos/soraya/3a94f0cb-5129-4c82-b5c0-5a287c85f093/preview.webp',
+  '/photos/soraya/abf04fd6-3da4-44f8-8015-3608ec5130e0/preview.webp',
+  '/photos/soraya/cbb3d5a7-891e-4db0-adb4-5efdd17f1f14/preview.webp',
+  '/photos/soraya/d745db2f-9984-4550-ac3d-90df8ebc901b/preview.webp',
+];
+
 export const projects: Project[] = [
+  {
+    id: 'soraya',
+    title: 'Soraya',
+    category: 'Portrait',
+    year: '2026',
+    description: '',
+    hero: sorayaHero,
+    heroOrientation: 'portrait',
+    image: sorayaCover,
+    gallery: sorayaGallery,
+    nextId: 'marina'
+  },
   {
     id: 'marina',
     title: 'Marina',
@@ -210,6 +246,6 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: jennyCover,
     gallery: jennyGallery,
-    nextId: 'marina'
+    nextId: 'soraya'
   }
 ];
