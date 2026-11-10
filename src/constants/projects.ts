@@ -330,14 +330,13 @@ const mishaGallery: string[] = [
   '/photos/misha/misha-09/preview.webp',
 ];
 
-const alenaCover = '/photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/preview.webp';
-const alenaHero = '/photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/large.webp';
+const alenaCover = '/photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/preview.webp';
+const alenaHero = '/photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/large.webp';
 const alenaGallery: string[] = [
   '/photos/alena/3b6af7df-b6ea-47ad-b380-76581df6ca57/preview.webp',
   '/photos/alena/5eed4d44-1628-43c5-a986-6edcb4a6f329/preview.webp',
   '/photos/alena/7a3e6a28-d46b-4e32-972b-bdc42ebeeb0a/preview.webp',
   '/photos/alena/32aaeb94-249b-4a84-a241-6c901ffa4af7/preview.webp',
-  '/photos/alena/75a96a27-1bf6-4641-9431-5d4f4ad74ad3/preview.webp',
   '/photos/alena/88c74645-1219-4863-8393-515522bd5f21/preview.webp',
   '/photos/alena/9180a5d8-57d2-4bc0-880b-6d0fcdac86d2/preview.webp',
   '/photos/alena/31290c7c-0c2d-4859-8545-f9d5b90cac62/preview.webp',
