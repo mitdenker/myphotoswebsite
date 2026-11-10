@@ -143,10 +143,7 @@ const Work = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
         >
-          <span className="text-[10px] uppercase tracking-[0.4em] text-black/40 mb-8 block font-bold">Portrait photographer · Lisbon</span>
-          <h1 className="text-[2.75rem] sm:text-6xl md:text-8xl lg:text-9xl font-serif italic leading-[0.95] md:leading-[0.9]">
-            Light, shadow <br className="hidden md:block" />and the people <br className="hidden md:block" />in between.
-          </h1>
+          <h1 className="font-sans not-italic text-[10px] uppercase tracking-[0.4em] text-black/40 block font-bold"><span className="sr-only">Elena Korotkova — </span>Portrait photographer · Lisbon</h1>
         </motion.div>
         <motion.div
           className="md:col-span-4 space-y-6 text-sm leading-relaxed text-black/60 max-w-sm"
