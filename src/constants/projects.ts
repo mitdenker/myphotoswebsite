@@ -356,7 +356,7 @@ const katyaGallery: string[] = [
   '/photos/katya/katya-04/preview.webp',
   '/photos/katya/katya-05/preview.webp',
   '/photos/katya/katya-06/preview.webp',
-  '/photos/katya/katya-07/preview.webp',
+  '/photos/katya/katya-07b/preview.webp',
 ];
 
 export const projects: Project[] = [
