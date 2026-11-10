@@ -82,13 +82,9 @@ const chenxiGallery: string[] = [
   '/photos/chenxi/img-2158/preview.webp',
 ];
 
-const lenaCover = '/photos/lena/img-1577/preview.webp';
-const lenaHero = '/photos/lena/img-1577/large.webp';
+const lenaCover = '/photos/lena/img-1715-1/preview.webp';
+const lenaHero = '/photos/lena/img-1715-1/large.webp';
 const lenaGallery: string[] = [
-  '/photos/lena/img-1613/preview.webp',
-  '/photos/lena/img-1577/preview.webp',
-  '/photos/lena/img-1614/preview.webp',
-  '/photos/lena/img-1708-1/preview.webp',
   '/photos/lena/img-1715-1/preview.webp',
   '/photos/lena/img-1718-1/preview.webp',
   '/photos/lena/img-1722-1/preview.webp',
@@ -97,7 +93,6 @@ const lenaGallery: string[] = [
   '/photos/lena/photo-2026-04-26-18-07-51/preview.webp',
   '/photos/lena/photo-2026-04-26-18-07-52/preview.webp',
   '/photos/lena/photo-2026-04-26-18-07-54/preview.webp',
-  '/photos/lena2/img-1740/preview.webp',
 ];
 
 const lena2Cover = '/photos/lena2/img-2651-1/preview.webp';
@@ -120,6 +115,11 @@ const lena2Gallery: string[] = [
   '/photos/lena2/photo-2026-04-26-18-12-36/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-13-34/preview.webp',
   '/photos/lena/forest-56/preview.webp',
+  '/photos/lena/img-1613/preview.webp',
+  '/photos/lena/img-1577/preview.webp',
+  '/photos/lena/img-1614/preview.webp',
+  '/photos/lena/img-1708-1/preview.webp',
+  '/photos/lena2/img-1740/preview.webp',
 ];
 
 const jennyCover = '/photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/preview.webp';
