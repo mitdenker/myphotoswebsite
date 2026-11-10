@@ -144,6 +144,12 @@ const Work = () => {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <h1 className="font-sans not-italic text-[10px] uppercase tracking-[0.4em] text-black/40 block font-bold"><span className="sr-only">Elena Korotkova — </span>Portrait photographer · Lisbon</h1>
+          <blockquote className="mt-8">
+            <p className="text-[2.25rem] sm:text-5xl md:text-6xl lg:text-7xl font-serif italic leading-[1.05]">
+              “If the doors of perception were cleansed, everything would appear to man as it&nbsp;is&nbsp;— infinite.”
+            </p>
+            <cite className="not-italic block mt-6 text-[10px] uppercase tracking-[0.3em] text-black/40">William Blake</cite>
+          </blockquote>
         </motion.div>
         <motion.div
           className="md:col-span-4 space-y-6 text-sm leading-relaxed text-black/60 max-w-sm"
@@ -151,12 +157,6 @@ const Work = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
-          <blockquote className="border-l border-black/15 pl-5">
-            <p className="font-serif italic text-lg md:text-xl leading-snug text-black/80">
-              “If the doors of perception were cleansed, everything would appear to man as it is — infinite.”
-            </p>
-            <cite className="not-italic block mt-3 text-[10px] uppercase tracking-[0.3em] text-black/40">William Blake</cite>
-          </blockquote>
           <p>
             I'm Elena Korotkova, a photographer based in Lisbon, originally from Saint Petersburg. Expressive, vivid portraits — in darkness, through smoke, or in soft daylight on film.
           </p>
