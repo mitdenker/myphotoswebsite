@@ -344,7 +344,6 @@ const alenaGallery: string[] = [
   '/photos/alena/be7b2c47-4a8d-4d49-9682-3bec0f1c60ad/preview.webp',
   '/photos/alena/cdab9f9c-4f96-4921-8864-2939ef72677a/preview.webp',
   '/photos/alena/dsc06740/preview.webp',
-  '/photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/preview.webp',
 ];
 
 const katyaCover = '/photos/katya/katya-01/preview.webp';
