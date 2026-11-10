@@ -135,6 +135,34 @@ const Work = () => {
 
   return (
     <section className="bg-[#f9f9f7]">
+      {/* Intro header */}
+      <header className="px-6 md:px-12 pt-32 md:pt-48 pb-12 md:pb-24 grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 items-end">
+        <motion.div
+          className="md:col-span-8"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <span className="text-[10px] uppercase tracking-[0.4em] text-black/40 mb-8 block font-bold">Portrait photographer · Lisbon</span>
+          <h1 className="text-[2.75rem] sm:text-6xl md:text-8xl lg:text-9xl font-serif italic leading-[0.95] md:leading-[0.9]">
+            Light, shadow <br className="hidden md:block" />and the people <br className="hidden md:block" />in between.
+          </h1>
+        </motion.div>
+        <motion.div
+          className="md:col-span-4 space-y-6 text-sm leading-relaxed text-black/60 max-w-sm"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <p>
+            I'm Elena Korotkova, a photographer based in Lisbon, originally from Saint Petersburg. Expressive, vivid portraits — in darkness, through smoke, or in soft daylight on film.
+          </p>
+          <Link to="/contacts" className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest font-bold text-black hover:text-black/50 transition-colors">
+            Book a shoot <ArrowUpRight size={14} strokeWidth={1.5} />
+          </Link>
+        </motion.div>
+      </header>
+
       {/* Border-to-border 3 Column Grid */}
       {/* Mobile: one column in list order */}
       <div ref={gridRef} className="pb-32 md:hidden">

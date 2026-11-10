@@ -22,11 +22,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 mix-blend-difference px-6 py-8 md:px-12 md:py-10 flex justify-between items-end">
       <Link to="/" className="text-white">
-        {location.pathname === '/' ? (
-          <h1 className="text-lg md:text-xl tracking-[0.2em] font-light uppercase">Elena Korotkova</h1>
-        ) : (
-          <span className="block text-lg md:text-xl tracking-[0.2em] font-light uppercase">Elena Korotkova</span>
-        )}
+        <span className="block text-lg md:text-xl tracking-[0.2em] font-light uppercase">Elena Korotkova</span>
       </Link>
 
       {/* Desktop Nav */}
