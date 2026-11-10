@@ -487,7 +487,7 @@ export const projects: Project[] = [
     nextId: 'alena'
   },
   {
-    id: 'alena', title: 'Alena', category: 'Portrait', year: '2026', description: '',
+    id: 'alena', title: 'Alena', category: 'Portrait', year: '2025', description: '',
     hero: alenaHero, heroOrientation: 'portrait', image: alenaCover, gallery: alenaGallery, nextId: 'lena2'
   },
   {
