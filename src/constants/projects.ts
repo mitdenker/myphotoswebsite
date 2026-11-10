@@ -98,7 +98,6 @@ const lenaGallery: string[] = [
   '/photos/lena/photo-2026-04-26-18-07-52/preview.webp',
   '/photos/lena/photo-2026-04-26-18-07-54/preview.webp',
   '/photos/lena2/img-1740/preview.webp',
-  '/photos/lena/forest-56/preview.webp',
 ];
 
 const lena2Cover = '/photos/lena2/img-2651-1/preview.webp';
@@ -120,6 +119,7 @@ const lena2Gallery: string[] = [
   '/photos/lena2/photo-2026-04-26-18-13-23/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-12-36/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-13-34/preview.webp',
+  '/photos/lena/forest-56/preview.webp',
 ];
 
 const jennyCover = '/photos/jenny/5e5b82cd-ad6a-46de-9f9f-8689ab41a81a/preview.webp';
