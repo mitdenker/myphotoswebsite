@@ -1,10 +1,46 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { projects } from '../constants/projects';
 import { projectSeo } from '../seo';
 import { useSeo } from '../useSeo';
+
+/** Gallery photo: hover reveals colour on desktop; on touch screens the photo
+ *  in the middle of the screen fades to full colour while scrolling. */
+const GalleryImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
+  const ref = React.useRef<HTMLDivElement>(null);
+  const [isTouch, setIsTouch] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(hover: none)');
+    const update = () => setIsTouch(mq.matches);
+    update();
+    mq.addEventListener('change', update);
+    return () => mq.removeEventListener('change', update);
+  }, []);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
+  const touchFilter = useTransform(scrollYProgress, (p: number) => {
+    const d = Math.min(1, Math.max(0, (Math.abs(p - 0.5) - 0.04) / 0.36));
+    return `grayscale(${d}) brightness(${(1.1 - 0.1 * (1 - d)).toFixed(3)})`;
+  });
+
+  return (
+    <div ref={ref} className="overflow-hidden bg-zinc-100">
+      <motion.img
+        src={src}
+        alt={alt}
+        loading="lazy"
+        decoding="async"
+        style={isTouch ? { filter: touchFilter } : undefined}
+        className={
+          isTouch
+            ? 'w-full'
+            : 'w-full grayscale brightness-110 hover:grayscale-0 hover:scale-105 transition-all duration-1000'
+        }
+      />
+    </div>
+  );
+};
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -103,15 +139,10 @@ const ProjectDetail = () => {
                     transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
                     className={i % 2 === 0 ? "max-w-4xl" : "max-w-4xl ml-auto"}
                   >
-                      <div className="overflow-hidden bg-zinc-100">
-                          <img 
-                            src={img} 
-                            alt={`${project.title}, figure ${String(i + 1).padStart(2, '0')} by Elena Korotkova`}
-                            loading="lazy"
-                            decoding="async"
-                            className="w-full grayscale brightness-110 hover:grayscale-0 hover:scale-105 transition-all duration-1000"
-                          />
-                      </div>
+                      <GalleryImage
+                        src={img}
+                        alt={`${project.title}, figure ${String(i + 1).padStart(2, '0')} by Elena Korotkova`}
+                      />
                       <p className="text-[9px] uppercase tracking-widest text-black/30 mt-4 text-right">Figure 0{i+1}</p>
                   </motion.div>
               ))}
