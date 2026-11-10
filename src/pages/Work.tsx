@@ -61,10 +61,11 @@ const FloatingProjectCard: React.FC<{
       <Link to={`/work/${project.id}`} className="block">
         <motion.img
           style={{
-            ...(shouldReduceMotion ? {} : { y: imageY, scale: imageScale }),
+            // No drift on touch screens: with momentum scrolling it reads as jitter.
+            ...(shouldReduceMotion || isTouch ? {} : { y: imageY, scale: imageScale }),
             ...(isTouch ? { filter: touchFilter } : {}),
           }}
-          whileHover={shouldReduceMotion ? undefined : { scale: 1.06 }}
+          whileHover={shouldReduceMotion || isTouch ? undefined : { scale: 1.06 }}
           transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           src={project.image}
           alt={`${project.title} — ${project.category.toLowerCase()} by Elena Korotkova`}

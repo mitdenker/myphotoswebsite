@@ -19,21 +19,46 @@ const Navbar = () => {
     { name: 'Contacts', path: '/contacts' },
   ];
 
+  // Hide the bar while scrolling down, bring it back on scroll up.
+  // Once the page is scrolled it gets a solid background so it never sits on top of text or photos.
+  const [hidden, setHidden] = React.useState(false);
+  const [scrolled, setScrolled] = React.useState(false);
+  React.useEffect(() => {
+    let last = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      setScrolled(y > 20);
+      if (Math.abs(y - last) < 6) return;
+      setHidden(y > last && y > 120);
+      last = y;
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+  React.useEffect(() => setHidden(false), [location.pathname]);
+
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 mix-blend-difference px-6 py-8 md:px-12 md:py-10 flex justify-between items-end">
-      <Link to="/" className="text-white">
-        <span className="block text-lg md:text-xl tracking-[0.2em] font-light uppercase">Elena Korotkova</span>
+    <nav
+      className={cn(
+        'fixed top-0 left-0 w-full z-50 px-6 py-6 md:px-12 md:py-8 flex justify-between items-end transition-[transform,background-color] duration-500 ease-out',
+        scrolled ? 'bg-[#f9f9f7]/95 backdrop-blur-sm' : 'bg-transparent',
+        hidden && !isOpen ? '-translate-y-full' : 'translate-y-0',
+      )}
+    >
+      <Link to="/" className="text-black">
+        <span className="block whitespace-nowrap text-sm sm:text-lg md:text-xl tracking-[0.15em] sm:tracking-[0.2em] font-light uppercase">Elena Korotkova</span>
       </Link>
 
       {/* Desktop Nav */}
-      <div className="flex gap-6 md:gap-12 text-white/70">
+      <div className="flex gap-4 sm:gap-6 md:gap-12 text-black/50">
         {navLinks.map((link) => (
           <Link
             key={link.path}
             to={link.path}
             className={cn(
-              "text-[11px] uppercase tracking-[0.15em] hover:text-white transition-colors duration-300",
-              (location.pathname === link.path || (link.path === '/' && location.pathname.startsWith('/work/'))) && "text-white"
+              "text-[11px] uppercase tracking-[0.15em] hover:text-black transition-colors duration-300",
+              (location.pathname === link.path || (link.path === '/' && location.pathname.startsWith('/work/'))) && "text-black"
             )}
           >
             {link.name}
