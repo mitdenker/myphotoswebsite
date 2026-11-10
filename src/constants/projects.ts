@@ -113,7 +113,6 @@ const lena2Gallery: string[] = [
   '/photos/lena2/photo-2026-04-26-18-13-23/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-12-36/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-13-34/preview.webp',
-  '/photos/lena/forest-56/preview.webp',
   '/photos/lena/img-1613/preview.webp',
   '/photos/lena/img-1577/preview.webp',
   '/photos/lena/img-1614/preview.webp',
@@ -353,6 +352,26 @@ const katyaGallery: string[] = [
   '/photos/katya/katya-07b/preview.webp',
 ];
 
+const filmCover = '/photos/film/film-01/preview.webp';
+const filmHero = '/photos/film/film-01/large.webp';
+const filmGallery: string[] = [
+  '/photos/film/film-01/preview.webp',
+  '/photos/film/film-02/preview.webp',
+  '/photos/film/film-03/preview.webp',
+  '/photos/film/film-04/preview.webp',
+  '/photos/film/film-05/preview.webp',
+  '/photos/film/film-06/preview.webp',
+  '/photos/film/film-07/preview.webp',
+  '/photos/film/film-08/preview.webp',
+  '/photos/film/film-09/preview.webp',
+  '/photos/film/film-10/preview.webp',
+  '/photos/film/film-11/preview.webp',
+  '/photos/film/film-12/preview.webp',
+  '/photos/film/film-13/preview.webp',
+  '/photos/film/film-14/preview.webp',
+  '/photos/film/film-15/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'chenxi',
@@ -485,6 +504,10 @@ export const projects: Project[] = [
   },
   {
     id: 'katya', title: 'Katya', category: 'Portrait', year: '2026', description: '',
-    hero: katyaHero, heroOrientation: 'portrait', image: katyaCover, gallery: katyaGallery, nextId: 'chenxi'
+    hero: katyaHero, heroOrientation: 'portrait', image: katyaCover, gallery: katyaGallery, nextId: 'film'
+  },
+  {
+    id: 'film', title: 'Film', category: 'Film', year: '2026', description: '',
+    hero: filmHero, heroOrientation: 'landscape', image: filmCover, gallery: filmGallery, nextId: 'chenxi'
   }
 ];
