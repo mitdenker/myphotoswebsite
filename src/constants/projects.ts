@@ -346,8 +346,8 @@ const alenaGallery: string[] = [
   '/photos/alena/dsc06740/preview.webp',
 ];
 
-const katyaCover = '/photos/katya/katya-01/preview.webp';
-const katyaHero = '/photos/katya/katya-01/large.webp';
+const katyaCover = '/photos/katya/katya-04/preview.webp';
+const katyaHero = '/photos/katya/katya-04/large.webp';
 const katyaGallery: string[] = [
   '/photos/katya/katya-01/preview.webp',
   '/photos/katya/katya-02/preview.webp',
