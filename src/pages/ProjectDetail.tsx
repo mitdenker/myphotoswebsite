@@ -57,7 +57,8 @@ const ProjectDetail = () => {
   if (!project) return null;
 
   const nextProject = projects.find(p => p.id === project.nextId);
-  const hasLandscapeHero = project.heroOrientation === 'landscape';
+  // Full-screen landscape hero is turned off: every project opens with the title header.
+  const hasLandscapeHero = false;
 
   return (
     <motion.div 
