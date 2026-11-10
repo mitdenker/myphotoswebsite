@@ -48,6 +48,12 @@ const FloatingProjectCard: React.FC<{
     const d = Math.min(1, Math.max(0, (Math.abs(p - 0.5) - 0.04) / 0.36));
     return `grayscale(${d}) brightness(${(0.9 + 0.1 * (1 - d)).toFixed(3)}) contrast(1.1)`;
   });
+  // On touch screens the caption shows while the bottom of the photo is on screen
+  // (cards can be taller than the screen, so it follows the card's bottom edge, not its centre).
+  const { scrollYProgress: captionProgress } = useScroll({ target: cardRef, offset: ['end end', 'end 0.3'] });
+  const touchCaption = useTransform(captionProgress, (p: number) =>
+    p <= 0 || p >= 1 ? 0 : Math.min(1, p / 0.15, (1 - p) / 0.15),
+  );
   const imageY = useTransform(scrollFloat, (value: number) => value * driftDirection);
   // Scale up just enough that the shifted image always covers its frame:
   // a shift of |y| px needs (2|y| + 2px safety) of extra height. Never shows a gap.
@@ -77,7 +83,21 @@ const FloatingProjectCard: React.FC<{
               : 'block w-full grayscale brightness-90 contrast-110 group-hover:grayscale-0 transition-[filter,scale] duration-1000'
           }
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-700 p-8 flex flex-col justify-end text-white">
+        {isTouch && (
+          <motion.div
+            style={{ opacity: touchCaption }}
+            className="absolute inset-x-0 bottom-0 pt-24 px-6 pb-6 bg-gradient-to-t from-black/70 via-black/25 to-transparent text-white flex justify-between items-end pointer-events-none"
+          >
+            <div>
+              <span className="text-[10px] uppercase tracking-widest opacity-60 mb-2 block">{project.category}</span>
+              <h3 className="text-3xl font-serif italic leading-none">{project.title}</h3>
+            </div>
+            <span className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold">
+              See photoshoot <ArrowUpRight size={20} strokeWidth={1.25} />
+            </span>
+          </motion.div>
+        )}
+        <div className={`absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-700 p-8 flex-col justify-end text-white ${isTouch ? 'hidden' : 'flex'}`}>
           <div className="flex justify-between items-end transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
             <div>
               <span className="text-[10px] uppercase tracking-widest opacity-60 mb-2 block">{project.category}</span>
