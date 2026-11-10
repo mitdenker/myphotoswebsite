@@ -98,6 +98,7 @@ const lena2Cover = '/photos/lena2/img-2651-1/preview.webp';
 const lena2Hero = '/photos/lena2/img-2651-1/large.webp';
 const lena2Gallery: string[] = [
   '/photos/lena2/img-2651-1/preview.webp',
+  '/photos/lena2/img-2496/preview.webp',
   '/photos/lena2/img-2596-1/preview.webp',
   '/photos/lena2/img-2627-1/preview.webp',
   '/photos/lena2/img-2631/preview.webp',
@@ -105,7 +106,6 @@ const lena2Gallery: string[] = [
   '/photos/lena2/img-2656/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-12-31/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-12-34/preview.webp',
-  '/photos/lena2/img-2496/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-12-45/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-12-50/preview.webp',
   '/photos/lena2/photo-2026-04-26-18-13-23/preview.webp',
@@ -354,7 +354,6 @@ const filmCover = '/photos/film/film-01/preview.webp';
 const filmHero = '/photos/film/film-01/large.webp';
 const filmGallery: string[] = [
   '/photos/film/film-01/preview.webp',
-  '/photos/film/film-02/preview.webp',
   '/photos/film/film-03/preview.webp',
   '/photos/film/film-04/preview.webp',
   '/photos/film/film-05/preview.webp',
@@ -362,6 +361,7 @@ const filmGallery: string[] = [
   '/photos/film/film-07/preview.webp',
   '/photos/film/film-08/preview.webp',
   '/photos/film/film-09/preview.webp',
+  '/photos/film/film-02/preview.webp',
   '/photos/film/film-10/preview.webp',
   '/photos/film/film-11/preview.webp',
   '/photos/film/film-12/preview.webp',
