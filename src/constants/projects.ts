@@ -347,6 +347,18 @@ const alenaGallery: string[] = [
   '/photos/alena/e3cf4bee-b0f6-4638-8655-c8a3f2f86f92/preview.webp',
 ];
 
+const katyaCover = '/photos/katya/katya-01/preview.webp';
+const katyaHero = '/photos/katya/katya-01/large.webp';
+const katyaGallery: string[] = [
+  '/photos/katya/katya-01/preview.webp',
+  '/photos/katya/katya-02/preview.webp',
+  '/photos/katya/katya-03/preview.webp',
+  '/photos/katya/katya-04/preview.webp',
+  '/photos/katya/katya-05/preview.webp',
+  '/photos/katya/katya-06/preview.webp',
+  '/photos/katya/katya-07/preview.webp',
+];
+
 export const projects: Project[] = [
   {
     id: 'chenxi',
@@ -487,6 +499,10 @@ export const projects: Project[] = [
     heroOrientation: 'portrait',
     image: lena2Cover,
     gallery: lena2Gallery,
-    nextId: 'chenxi'
+    nextId: 'katya'
+  },
+  {
+    id: 'katya', title: 'Katya', category: 'Portrait', year: '2026', description: '',
+    hero: katyaHero, heroOrientation: 'portrait', image: katyaCover, gallery: katyaGallery, nextId: 'chenxi'
   }
 ];
