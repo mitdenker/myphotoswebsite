@@ -82,6 +82,7 @@ const chenxiGallery: string[] = [
   '/photos/chenxi/img-2158/preview.webp',
 ];
 
+// Lena Forest is hidden from the site for now; photos kept for later.
 const lenaCover = '/photos/lena/img-1715-1/preview.webp';
 const lenaHero = '/photos/lena/img-1715-1/large.webp';
 const lenaGallery: string[] = [
@@ -458,19 +459,7 @@ export const projects: Project[] = [
   },
   {
     id: 'schmith', title: 'Schmith', category: 'Portrait', year: '2026', description: '',
-    hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'lena'
-  },
-  {
-    id: 'lena',
-    title: 'Lena Forest',
-    category: 'Portrait',
-    year: '2025',
-    description: '',
-    hero: lenaHero,
-    heroOrientation: 'portrait',
-    image: lenaCover,
-    gallery: lenaGallery,
-    nextId: 'jenny'
+    hero: schmithHero, heroOrientation: 'portrait', image: schmithCover, gallery: schmithGallery, nextId: 'jenny'
   },
   {
     id: 'jenny',
