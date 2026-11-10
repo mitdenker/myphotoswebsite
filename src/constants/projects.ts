@@ -98,6 +98,7 @@ const lenaGallery: string[] = [
   '/photos/lena/photo-2026-04-26-18-07-52/preview.webp',
   '/photos/lena/photo-2026-04-26-18-07-54/preview.webp',
   '/photos/lena2/img-1740/preview.webp',
+  '/photos/lena/forest-56/preview.webp',
 ];
 
 const lena2Cover = '/photos/lena2/img-2651-1/preview.webp';
