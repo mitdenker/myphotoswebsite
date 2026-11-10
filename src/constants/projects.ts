@@ -77,8 +77,6 @@ const chenxiGallery: string[] = [
   '/photos/chenxi/fa449055-5086-43fa-ae01-ada1a9ea8a54/preview.webp',
   '/photos/chenxi/img-2109/preview.webp',
   '/photos/chenxi/img-2113/preview.webp',
-  '/photos/chenxi/img-2114/preview.webp',
-  '/photos/chenxi/img-2157/preview.webp',
   '/photos/chenxi/img-2158/preview.webp',
 ];
 
@@ -257,7 +255,6 @@ const leraCover = '/photos/lera/lera-01/preview.webp';
 const leraHero = '/photos/lera/lera-01/large.webp';
 const leraGallery: string[] = [
   '/photos/lera/lera-01/preview.webp',
-  '/photos/lera/lera-02/preview.webp',
   '/photos/lera/lera-03/preview.webp',
   '/photos/lera/lera-04/preview.webp',
   '/photos/lera/lera-05/preview.webp',
